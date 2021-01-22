@@ -3,4 +3,7 @@ Getting Started
 
 ## Todo
 
-- Giving a low level full stack overview of the system from creating a Token to the first transitive transaction
+- Welcome to this handbook!
+- Brief introduction to Circles
+- Where can you find what? Links to subsections of this handbook
+- Most important addressses: Where Circles is deployed (mainnet / testnet)

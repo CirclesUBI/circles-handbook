@@ -1,4 +1,6 @@
 API Reference - Circles Core
 ===
 
-See reference here: https://circlesubi.github.io/circles-core/
+## Todo
+
+- Link to automatically generated documentation page on GitHub: https://circlesubi.github.io/circles-core/
