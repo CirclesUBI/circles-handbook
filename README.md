@@ -110,13 +110,20 @@ In the current protocol, there is an embedded inflation rate to the Circles syst
 
 
 The Circles system is therefore a material and symbolic infrastructure for the distribution of value. The Circles system acknowledges relationships between people as the necessary bedrock for social forms to emerge that more accurately reflect the needs of the community. For now, that universality is limited by access to an internet connected browser, and depends on infrastructure that is not sensitive to the relationships between the members of any given community.  We do not support digital colonialism. We expect that the system will become more inclusive as more people get involved and start to organize their own local economies. For now, we use the means available to us to co-create alternatives - acknowledging it’s contradictions - and contesting them in practice. 
+
+
+
 Currencies and Trust: Mutual Currents of Credit
+
 Today, we use one money to manage health, education, local and international trade, agriculture, and many other aspects of life.  This "one size fits all" mode of exchange is like a pine forest.  In such a forest, decaying pine needles acidify the soil and prevent certain types of plants from growing. The simplicity involved has its advantages and it might be efficient, but the thing about monocultures is that when something goes wrong, like a fire, or an invasive parasite, or a recession, it becomes a threat to all participants collectively.  
+
+
 The monetary design for Circles, by contrast, resembles a jungle.  In the jungle, success requires a healthy arrangement of relationships with your neighbors.  There are no bankers dictating which strategies are permitted.  The system is open to a wider diversity of strategies.  Unlike life in a monoculture, if something goes wrong in the Jungle, the parts of the system that are unrelated to the problem either adapt to the changes or remain intact.  This means that individual failures are less likely to threaten the whole interconnectivity of the support network.  By providing this kind of resiliency, Circles aims to make it less risky to explore new ways of supporting your community.
 
-With Circles, when a new person joins, they exercise the power to issue credit to others.  Alone, these are called personal currencies, but together these form a network of mutual currencies. As personal currencies only start to circulate once somebody else trusts them —the structure of that network depends on the ecology of trust people have with each other.
+With Circles, when a new person joins, they exercise the power to issue credit to others.  Alone, these are called personal currencies, but together these form a network of mutual currencies. As personal currencies only start to circulate once somebody else trusts them —the structure of that network depends on the ecology of trust people have with each other. Currents of trust are like different rivers finding their way from the mountain, through the jungle and to the ocean. The more trust exists in a community, the easier wealth will flow and circulate between them, creating ecologies where different social relations can thrive.
 
-Currents of trust are like different rivers finding their way from the mountain, through the jungle and to the ocean. The more trust exists in a community, the easier wealth will flow and circulate between them, creating ecologies where different social relations can thrive.
+
+
 Why Trust?
 
 You might wonder: Why is Trust needed? You need to understand what trust is if you want to use Circles properly. Trust has a dual meaning in the Circles system: one social, one technical. 
@@ -125,65 +132,100 @@ From a social perspective, it means the ability to issue credit to others. Trust
 From a technical perspective, trust means that you acknowledge somebody is a real person, that they are who they say they are. In the initial iteration of Circles, in order to enter the system you need 3 people to trust you. Trust is there to avoid people making fake accounts, pretending to be someone who they are not and claiming, unfairly, 2 basic incomes for themselves. The point of it is not to replace the trust between people with a faceless technology, but to create new social and political institutions with the infrastructure this technology provides, by trusting one another. 
 The more people trust each other’s Circles as a reliable means of payment, the more Circles currencies will be positioned socially as money. From a design perspective, trust is needed to make sure that people are who they say they are without the need for creepy biometrics and surveillance capitalism dystopias. In other words, trust in the Circles system means both the ability to spend and that you believe other people are real, trustworthy peers in your community.
 Ideally, the people who trust you to enter the system are already in your communities, exchanging with one another the things they need in their lives, forming what we call a Web of Trust (WoT - see more in the whitepaper), where the different currencies circulate. As Circles evolves, we expect different Webs of Trust emerging in different local areas, with their own rules about how people can join.
+
+
+
 2 . Social and Economic Organization 
 
 In order to start Circles in your local area, you need people and merchants willing to redeem their resources for Circles. In order to get started, you will also need other people who can help you in organising a democratic economy around you and most importantly, who trust you and who you trust.
-Principles:
+
+
+a. Principles:
+
 To organise the Circles economy, we follow 4 principles: 
-Decentralization
-Localism
-Self-sustainability
-Democratic Confederalism. 
+
+             Self-sustainability
+             Decentralization
+             Localism
+             Democratic Confederalism
+            
+            
 Circles is ideally meant for local municipal constituencies which can be federated following the principles of direct democracy. Each of these principles taken alone are not enough to bring about truly liberatory and transformational change in our societies. We must therefore think holistically about these four principles. Circles aims to provide social and technical tools to build alternatives to today’s neoliberalism and corporate feudalism.  It starts with the decentralization of economic power built by local, interconnected regions that complement each other’s resources and needs in sustainable ways.  These will be confederated together at the broader regional, national and international levels from the bottom up. The democratization of money in the form of a truly liberatory basic income which represents our common wealth can only be achieved by means of economic democracy. 
 
 
 
 
 
-Democratic Assemblies: 
+b. Democratic Assemblies: 
 
 
 “…the mistakes that are made by a truly revolutionary orkers’ movement are, historically speaking,immeasurably more fruitful and more valuable than the infallibility of the best possible ‘Central Committee’.”
 Rosa Luxemburg, critiquing the Russian revolution
 
+
+
 The following outlines a practical governance structure which the Circles communities: seasonal democratic assemblies. 
 
 This system of local neighborhood, municipal and local seasonal assemblies allows for people to come together and decide on the organisation of their own local economic circle. This means embedding the real economy by using Circles, by bringing different sectors of the economy together, and creating a local, interconnected system of value where different things can flow. 
 
+
+
 What is an assembly?
+
+
 
 The assemblies are the self-administration structures formed by individuals.  An assembly is a local democratic system of governance where people from the community (village, neighborhood, city, canton, etc.) get together to discuss and decide over the different aspects that affect their lives. 
 
+
+
 Why are we choosing it to start experimenting with governance structures for Circles? 
 
-Because Circles aims to create a system that provides people a basic income to live, an assembly creates a democratic structure to come together and decide over how to get there. The assembly serves as the space whereby people can choose over what they need in the network, take direct actions to make it happen and maintain the system.
 
-The goal is the formation of local assemblies with members from diverse cultures who belong to different social classes, yet are working together with a common goal. The democratic principles of the assemblies are as follow: 
-Discussions, decision making and the implementation of decisions regarding the democratic organization of the economy should be carried out with the people who use Circles.
-Equal representation (gender, youth, elderly, minorities etc.) must be implemented.
-Co-spokespersons by the coordination group should be implemented in all economic councils (see coordination group).
-Why periodic assemblies? 
+
+Because Circles aims to create a system that provides people a basic income to live, an assembly creates a democratic structure to come together and decide over how to get there. The assembly serves as the space whereby people can choose over what they need in the network, take direct actions to make it happen and maintain the system. The goal is the formation of local assemblies with members from diverse cultures who belong to different social classes, yet are working together with a common goal. The democratic principles of the assemblies are as follow: 
+
+
+            Discussions, decision making and the implementation of decisions regarding the democratic organization of the economy should be carried out with the people who use Circles.
+            Equal representation (gender, youth, elderly, minorities etc.) must be implemented.
+            Co-spokespersons by the coordination group should be implemented in all economic councils (see coordination group).
+            Why periodic assemblies? 
+            
+            
 
 Having assemblies allows people to plan for change and adapt accordingly to the fluctuations of the year and the emergent needs of each cycle. Assemblies are to be organised at least on a monthly basis to explore changes that need to be made, onboard (trust) new people, resolve any problems and conflicts and decide on the goals, tasks and responsibilities. For example, the Berlin assembly is the first Wednesday of every month. They could be seasonally structured into 3-4 month periods (Winter, Spring, Summer, Autumn) or 6 month periods (Dry and Rainy) or however seasons are rooted in each region. The periodicity not only allows us to keep a steady pace, it provides us with an openness to change and experimentation. People’s needs change throughout the year, so the seasonal assemblies help to portray that. 
 
-Coordination Group:
+
+
+i. Coordination Group:
+
+
 
 In order to decentralize power both within and outside the assemblies, it is important to have a coordination group which cares for the democratic organisation of the local economy with Circles. The coordination group is in charge of: 
-Organising the assembly
-Taking protocol of the decisions taken and making sure the decisions produced in the assembly are carried out
-Administration of the different elements that arise 
-Having an overview of the different working groups and their interconnectedness. 
-Support the needs of the working groups
-Speaking on behalf of the assembly when needed
-Represent the local assembly at the regional, confederated assemblies.
-The coordination group can be made up of 3 to 5 people depending on the size of the assembly, which should rotate after a specific period of time. The coordination time is decided upon by the local assembly (can be 3 months to 4 year terms, this depends on the group and its needs).
+
+
+            Organising the assembly
+            Taking protocol of the decisions taken and making sure the decisions produced in the assembly are carried out
+            Administration of the different elements that arise 
+            Having an overview of the different working groups and their interconnectedness. 
+            Support the needs of the working groups
+            Speaking on behalf of the assembly when needed
+            Represent the local assembly at the regional, confederated assemblies.
+            The coordination group can be made up of 3 to 5 people depending on the size of the assembly, which should rotate after a specific period of time. The             coordination time is decided upon by the local assembly (can be 3 months to 4 year terms, this depends on the group and its needs).
+
+
 
 Economic Councils: 
 
+
+
 The aim of the Circles currency is to become a community basic income where people can attain a basic livelihood from it. What this means and how it is achieved depends on each community. The seasonal economic councils are meant to organise different elements of what makes up the economy, or household, around you - so that you can get the things that you need in Circles. They are to be decided upon in the assembly based on the needs in the region. The economic councils are the ones in charge of talking to different sectors of the economy (or household) in order to onboard them in the system and coordinating between each other.  These sectors may include: merchants, shops, cooperatives, businesses, communities, urban gardens, farmers, care, cleaning, manufacturers, retailers, restaurants, wholesalers, housing, construction.  Below are some examples:
+
+
+
 Food Organisation Group: 
 
 Within the assembly, one of the groups that might emerge is one that organises food in the region. Depending on each bioregion, the group will have to talk to local food producers, depending on the needs and what can be sourced locally. Everyone wants food in their own local currency. What is important is that those who provide the food (e.g. farmers, fishermen, etc) have a place to spend circles that is useful for their own needs. So if you onboard the cereal farmer who produces flour, it is important the food group can connect them to someone else who can fulfill one of their needs. So, for example, if the mill is outside the cereal farm, they could accept circles from the farm as part of their service fee. Alternatively, the cereal farmer could use the circles they receive to pay for labor or buy goods from other farms. You have to think in (interconnected) circles!
+
 
 
 Ecologistics - Distribution Group
@@ -201,10 +243,12 @@ Housing Group:
 The housing group can engage the everyday citizen into joining Circles and organise together for a more fair housing situation, that takes into consideration the real needs and capacities of people. A housing group within Circles is responsible for talking to landlords and house-owners, to get them to accept Circles for part of their rent. This is a practical way where landlords can support the community at large, by giving their houses and apartments for cheaper in national currency terms, by also accepting Circles. Land owners could also accept Circles for the buying of land. Together with the coordination group, the housing group can engage the municipality, to tell them the benefits of accepting Circles as taxes. This would allow Circles to circulate more widely. Landlords who accept Circles can spend them at local shops or pay local service providers, like energy providers or even as taxes to the local municipal government. 
 
 
-Computer Programming Group:If there are people in your area who have computer programming experience, they may be able to help in building localized, situated software for the Circles system, even creating their own clients and instances of the protocol. They can also provide support in other tasks like administration, logistics and so on. Having someone knowledgeable of computer science in your local network will help you organise and in democratizing the technical knowledge of the Circles system.
+Computer Programming Group: If there are people in your area who have computer programming experience, they may be able to help in building localized, situated software for the Circles system, even creating their own clients and instances of the protocol. They can also provide support in other tasks like administration, logistics and so on. Having someone knowledgeable of computer science in your local network will help you organise and in democratizing the technical knowledge of the Circles system.
 
 
-Self- Sustainability:
+
+
+c. Self- Sustainability:
 
 The term economy originally comes from the ancient greek word “oikos” which means household and “nomos” which in greek philosophy meant something like the agreed conventions, norms or ways in which society is organised and chooses its laws by way of reasoning and consensus. Economy or Oikonomia thus meant the way in which the household is organised - or “the order of the household”. Actual households in ancient Greece likely fell short of the democratic ideal that Circles strives for, specifically regarding how slaves and women were treated.  Bearing that difference in mind, let’s envision a household that we would want to live in.  In this section we’ll explore how Circles can make our economies more like that one.  
 
@@ -213,16 +257,27 @@ In order to organise Circles, we would like to pose a different understanding of
 The Circles system is designed with the idea of differentiation and interdependence. No person is an island. While local democratic autonomy is important, it can only be strengthened and expanded through its interdependence with other regions. The current globalised Household works in a deterritorialized way, whereby flour is grown in Canada, shipped to China to mass produce bread loafs and transported to Germany for the final baking process, marketed as “freshly baked bread”. This is a very wasteful household. Circles can be used as a tool for local communities to empower each other economically.  By spending it on the things that are made and maintained in their regions, people can take an active and democratic role in organizing the systems that they rely on. Particularly, communities can use Circles to realign the flow of goods so that it matches their currents of trust. This means relying less on a global hodgepodge of uncaring corporations, and more on an awareness of who we trust (and who trusts us) to ensure that necessary goods make it through to our household.
 
 
-Decentralization:
+d. Decentralization:
+
+
 If one is talking about political power, decentralization alone is not enough to bring about truly transformative change in society. Writing in the 90s, social ecologist Murray Bookchin, noted that:
-“It is a troubling fact that neither decentralization nor self-sufficiency in itself is necessarily  democratic. Plato’s ideal city in the Republic was indeed designed to be self-sufficient, but its self-sufficiency was meant to maintain a warrior as well as a philosophical elite. Similarly, decentralization in itself provides no assurance that we will have an ecological society. A decentralized society can easily co-exist with extremely rigid hierarchies. A striking example is European and Oriental feudalism, a social order in which princely, ducal, and baronial hierarchies were based on highly decentralized communities.”
-A parallel can be drawn with the world of decentralized peer-to-peer technologies. We understand technology not just as the ensemble of raw materials, tools, machines, and related devices that are needed to produce a usable object. For us, the Circles techné serves the situated social, ethical and political  purpose of making an unconditional basic income come into being in a truly democratic manner. 
-Today’s decentralization movement promises the appropriate technologies to create decentralised infrastructures in domains like information, money and even administration. Despite its potentialities, the political economy and design of technologies such as blockchain suffer from a naive understanding of power, reproducing feudal-like structures unto the virtual realm - with the means of production controlled by emergent elites who either hold the knowledge or the capital to influence such systems. These create hidden hierarchies and potential autocracies with a single point of failure.
+
+
+            “It is a troubling fact that neither decentralization nor self-sufficiency in itself is necessarily  democratic. Plato’s ideal city in the Republic was indeed designed to be self-sufficient, but its self-sufficiency was meant to maintain a warrior as well as a philosophical elite. Similarly, decentralization in itself provides no assurance that we will have an ecological society. A decentralized society can easily co-exist with extremely rigid hierarchies. A striking example is European and Oriental feudalism, a social order in which princely, ducal, and baronial hierarchies were based on highly decentralized communities.”
+            
+            
+            
+A parallel can be drawn with the world of decentralized peer-to-peer technologies. We understand technology not just as the ensemble of raw materials, tools, machines, and related devices that are needed to produce a usable object. For us, the Circles techné serves the situated social, ethical and political  purpose of making an unconditional basic income come into being in a truly democratic manner. Today’s decentralization movement promises the appropriate technologies to create decentralised infrastructures in domains like information, money and even administration. Despite its potentialities, the political economy and design of technologies such as blockchain suffer from a naive understanding of power, reproducing feudal-like structures unto the virtual realm - with the means of production controlled by emergent elites who either hold the knowledge or the capital to influence such systems. These create hidden hierarchies and potential autocracies with a single point of failure.
+
+
 Then there’s the question of the meaning of decentralization itself. It often appears that today’s techno-optimists use decentralization to mean a change from a centralized system (central banks, nation-states) to one where no-one can influence the system, through the usage of complex computational algorithms and other forms of magic. This giving of responsibility to the machine is often argued in terms of transparency. Machines don’t lie, people do. We will call this very political attempt at the automation of politics, the logic of trying to solve political problems with technical solutions, the anti-politics machine. 
 
 Intentions and ideologies are hidden within the algorithms of this anti-politics machine, which in reality reflects the political and economic arrangements by which technologies such as blockchains operate. The different mathematical “proofs” are just ways of arranging power. Because we are trying to build a truly democratic monetary system, the infrastructure upon which it lives must reflect these values. Otherwise we will only be changing one master for another one.
 By decentralization we mean something very specific: the decentralization of political and economic power via democratic and autonomous practices. The decentralization of the production of money, claimed by people directly as a universal income through infrastructures like Circles, forms the basis of a democratic economy. Yet to truly get there, the technological infrastructure must also be democratised. To build a decentralized, international money commons infrastructure we must go beyond the tyranny of the anti-politics machine, to a system where each person has an equal say over their own money system. 
-Local Solutions for Global Problems: Democratic Autonomy
+
+
+
+e. Local Solutions for Global Problems: Democratic Autonomy
 
 
 The ethos of localism is to think global and act local, or to think about local solutions to global problems, situating yourself where you are, by interacting with your environment and seeing what are the resources and needs in your area. Localism is therefore a call for autonomy and local democracy or democratic autonomy, for short, as a principle for the organisation of society. 
@@ -232,7 +287,7 @@ Democratic autonomy is a way by which each group can organise according to their
 All units within the confederal structure organise themselves autonomously. These structures can be people’s assemblies, cooperatives or academies. The fundamental unit of these structures is the circles of trust people organise within. Within this context, the fundamental institutions in implementing  direct democracy are the democratic assemblies (see above). In the aim of solving society’s economic problems and providing for society’s needs, the cooperative structures are imperative. Democratic Autonomous Organizations (DAO) of Circles should organise their own assemblies and then connect to others in broader regional confederated levels, as per need. 
 
 
-What is Democratic Confederalism?
+f. What is Democratic Confederalism?
 
 Democratic Confederalism starts from the notion that every entity has the right to organise itself from the local to the universal. It is an ethical, political, and administrative expression of society in which different identities, factions and groups coexist in harmony with one another. By this we are not referring to a classical confederal structure consisting of states, but the confederal unity of different social structures. The fundamental difference between the two is that one relies on the state and the other on society. 
 
@@ -242,16 +297,23 @@ In this sense, every entity or federative unit has the right to apply direct dem
 
 From local to planetary and back:
 
-The Berlin assembly is made up of people representing different neighborhoods in the city (Neukolln, Krezberg, Marzhan, Lichtenberg, etc). The Berlin assembly can be in turn a federation of smaller neighborhood wide assemblies, depending on need. 
-The Berlin assembly sends two representatives from the coordination group to one of the German regional assemblies. Berlin federates together with its neighbors: the Brandenburg assembly, the Wendland assembly and the Hamburg Assembly. Other regions do the same, according to how their bioregions and how they trade with each other. 
-Each German regional assembly chooses two people of the different coordination groups to be part of the broader European or inter-regional assembly, where members from different parts of what is now Germany, Poland, Denmark and other neighboring countries meet to take the decisions made by the regional assemblies and discuss how to coordinate between them. 
-At the international level, the different inter-regional assemblies again choose a coordination group which meets with other coordination groups representing the different parts of the international planetary democratic confederation. 
+      The Berlin assembly is made up of people representing different neighborhoods in the city (Neukolln, Krezberg, Marzhan, Lichtenberg, etc). The Berlin assembly can be in turn a federation of smaller neighborhood wide assemblies, depending on need. 
 
-Even at the international level, power remains within the local constituencies. The broader levels serve as a means of enacting the decisions made by people in the different local democratic autonomous organisations (DAO). The coordination group is therefore representing the voices of the autonomous groups it was elected to coordinate at each level. Any individual could at any time be elected to represent the local, regional, international and planetary level. After sometime, the coordination groups rotate to make sure power circulates and is not hoarded by one specific group. 
+      The Berlin assembly sends two representatives from the coordination group to one of the German regional assemblies. Berlin federates together with its neighbors: the Brandenburg assembly, the Wendland assembly and the Hamburg Assembly. Other regions do the same, according to how their bioregions and how they trade with each other. 
+
+      Each German regional assembly chooses two people of the different coordination groups to be part of the broader European or inter-regional assembly, where members from different parts of what is now Germany, Poland, Denmark and other neighboring countries meet to take the decisions made by the regional assemblies and discuss how to coordinate between them. 
+
+      At the international level, the different inter-regional assemblies again choose a coordination group which meets with other coordination groups representing the different parts of the international planetary democratic confederation. 
+
+      Even at the international level, power remains within the local constituencies. The broader levels serve as a means of enacting the decisions made by people in the different local democratic autonomous organisations (DAO). The coordination group is therefore representing the voices of the autonomous groups it was elected to coordinate at each level. Any individual could at any time be elected to represent the local, regional, international and planetary level. After sometime, the coordination groups rotate to make sure power circulates and is not hoarded by one specific group. 
 
 For an existing example of such a Confederalist structure, see the Rojava Revolution. For historical examples, see the Iroquois Confederation. 
 
-Values in Motion: Credit Circles 
+
+
+
+
+3. Values in Motion: Credit Circles 
 
 For easier adoption in different local areas, we propose the creation of Credit Circles  as a methodology for different merchants, workers and communities at large to connect with each other, allowing the value system to emerge.  The aim of building a Credit Circle is to facilitate trade between economic entities working in any given region. 
 
@@ -260,7 +322,9 @@ Below is a sketch of how to build a Circle in three different steps, to facilita
 
 The process of building credit circles works in 3 steps:
 
-First part of the Circle: Merchant Network 
+
+
+a. First part of the Circle: Merchant Network 
 
 The first step is to onboard the local small and medium merchants in your area unto the system. Getting them a wallet is easy, keeping them engaged is the hard part! 
 
@@ -367,7 +431,9 @@ By tapping into the baker’s underutilized resources aka the bread he would hav
 It might be awkward at first to ask a local shop about their turnover in sales. As a group organising Circles,  you can start forms of play, bounties and games within your community and give people rewards in Circles for onboarding new businesses into the network, relocalizing supply chains and spreading the word about them, so others can go and spend there. For example, people and businesses can be incentivized by getting paid in Circles for every business they onboard unto the system. 
 
 
-Second part of the Circle: Workers Network
+b. Second part of the Circle: Workers Network
+
+
 
 The second part of the circle addresses the workers who are employed at these businesses or cooperatives.  Employers can give benefits, wages and bonuses in Circles to their workers. Workers can also buy goods and services from within the merchant network. Similarly to the merchants, workers can also decide how much of their labor time they wish to add to the system and accept as payment for their work.
 
@@ -375,14 +441,23 @@ You can also, for example, bring in landlords and owners of land into the system
 
 Additionally, the second part of the commercial credit circle opens to the third sector (NGOs, non-for profit organizations, churches, etc) rooted in the region, which widens the scope of activities offered within the network, creating and reinforcing long lasting relationships and trust in the wider community. 
 
-Third Part of the Circle: Community Network
+
+
+c. Third Part of the Circle: Community Network
+
+
 
 The third part of the circle involves bringing in the communities who the local businesses serve, providing a customer base capable of anchoring more wealth to the region, generating an exponential increase in the total number of exchanges. In this way, Circles becomes a daily tool which encompasses all aspects of everyday life, making a community basic income work for everybody. 
 
 What can the community do? For things to start rotating, you have to organize an alliance between the people in the community and the businesses long term. For example, a person who onboards a business might say:
 
 “I dont have money but I have time and a lot of friends on social media. I can tell people in my circles to come to this bakery” Social media marketing and word of mouth is a way where a person can support a business and get paid for it in Circles! If the baker is paying somebody to do some word of mouth and people start coming - small bounties - there you see on the merchant head that this network is useful in keeping me alive. With Circles you can meet your unused resources with peoples’ unmet needs. In practice the 3 parts of the circle can be organised simultaneously. We emphasize local producers and merchants in order to have a higher flow of goods which is useful for others in the network. 
-Pricing and Payment Guidelines
+
+
+
+d. Pricing and Payment Guidelines
+
+
 
 Circles aims at becoming a means of payment and/or a means of exchange so people can freely decide how much they want to charge for the fruits of their work. But remember: the value of money comes from its social life, or its flow within a territory. 
 
