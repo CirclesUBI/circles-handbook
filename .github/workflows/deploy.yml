@@ -3,7 +3,7 @@ name: Deploy handbook via GitHub Pages
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
