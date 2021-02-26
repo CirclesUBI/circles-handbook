@@ -1,6 +1,17 @@
-# Circles Handbook
+# circles-handbook
 
-We hope to have more targeted documentation for the various parts of our application and community soon. For the time being, the best way to get an overview of Circles is to read the [whitepaper](https://github.com/CirclesUBI/whitepaper/blob/master/README.md).
+The handbook is a collection of documentation, tutorials, texts and thoughts around the Circles UBI system, community and people.
+
+## Development
+
+This static page is built using [Docusaurus 2](https://v2.docusaurus.io/).
+
+The following commands install the npm dependency and start a local development server. Most changes are reflected live without having to restart the server:
+
+```console
+yarn install
+yarn start
+```
 
 ## License
 
