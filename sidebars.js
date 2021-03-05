@@ -1,5 +1,5 @@
 module.exports = {
-  someSidebar: {
-    Users: [],
-  },
+  users: ['users/index'],
+  communities: ['communities/index'],
+  developers: ['developers/index'],
 };

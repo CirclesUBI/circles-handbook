@@ -21,7 +21,7 @@ function Home() {
               )}
               to={useBaseUrl('docs/users')}
             >
-              Read introduction
+              Read foreword
             </Link>
           </div>
         </div>
