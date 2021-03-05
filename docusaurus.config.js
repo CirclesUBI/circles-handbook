@@ -9,6 +9,7 @@ module.exports = {
   organizationName: 'CirclesUBI',
   projectName: 'circles-handbook',
   themeConfig: {
+    hideableSidebar: true,
     navbar: {
       title: 'Circles Handbook',
       logo: {
@@ -99,8 +100,14 @@ module.exports = {
               href: 'https://circles.garden',
             },
             {
+              label: 'Code of Conduct',
+              href:
+                'https://github.com/CirclesUBI/.github/blob/main/CODE_OF_CONDUCT.md',
+            },
+            {
               label: 'Contribute',
-              href: '#',
+              href:
+                'https://github.com/CirclesUBI/.github/blob/main/CONTRIBUTING.md',
             },
           ],
         },
