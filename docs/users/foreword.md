@@ -1,10 +1,10 @@
 ---
-id: index
+id: foreword
 title: Foreword
 slug: /users
 ---
 
-## In Search of the Money Commons
+**In Search of the Money Commons**
 
 Emergent currencies are a practical tool that allow for the democratization of resources in times of crisis. A confederation of such local community currencies, alongside the parallel relocalization of economic relations could be called a Money Commons. A money commons is a counter-movement against financialization. It is an attempt at democratizing the institutions that underpin monetary creation today—central and private banks—and transform them anew in order to democratise the economy itself. Universal Basic Income (UBI) is a civilizational paradigm shift. The transformation of money, its democratization into a people-powered-money commons, issued by people as a universal and unconditional income, is part of the key that will unleash humanity’s peaceful cohabitation with other forms of life in a sustainable way, but only if done right.
 
