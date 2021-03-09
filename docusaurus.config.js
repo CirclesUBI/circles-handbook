@@ -36,8 +36,8 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'docs/whitepaper',
-          activeBasePath: 'docs/whitepaper',
+          to: 'docs/developers/whitepaper',
+          activeBasePath: 'docs/developers/whitepaper',
           label: 'Whitepaper',
           position: 'right',
         },

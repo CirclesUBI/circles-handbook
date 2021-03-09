@@ -1,8 +1,7 @@
 ---
 id: whitepaper
-title: Circles Whitepaper
-sidebar_label: Whitepaper
-slug: /whitepaper
+title: Whitepaper
+slug: /developers/whitepaper
 ---
 
 *A decentralised Universal Basic Income platform based on personal currencies*
