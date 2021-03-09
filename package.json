@@ -17,7 +17,8 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "prettier": "^2.1.2"
+    "prettier": "^2.1.2",
+    "prop-types": "^15.7.2"
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.70",

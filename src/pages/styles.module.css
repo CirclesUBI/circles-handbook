@@ -13,6 +13,16 @@
   }
 }
 
+.introduction {
+  max-width: 40rem;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.introduction a {
+  font-weight: bold;
+}
+
 .buttons {
   display: flex;
   align-items: center;
@@ -20,5 +30,53 @@
 }
 
 .buttonReadIntroduction {
-  color: #fff !important;
+  color: var(--ifm-font-color-base-inverse);
+}
+
+.documentationLinks {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.documentationLinks a:hover {
+  text-decoration: none !important;
+}
+
+.documentationLinksItem {
+  margin: 1rem auto;
+  padding: 2rem;
+  padding-top: 2rem !important;
+  max-width: 20rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;
+  text-align: center;
+  transition: background linear .1s;
+}
+
+.documentationLinksItem:hover {
+  background-color: var(--ifm-color-gray-100);
+  font-style: normal;
+}
+
+html[data-theme='dark'] .documentationLinksItem {
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 2px 4px;
+}
+
+html[data-theme='dark'] .documentationLinksItem:hover {
+  background-color: var(--ifm-color-gray-900);
+}
+
+.documentationLinksImage {
+  height: 200px;
+  width: 200px;
+}
+
+.documentationLinksTitle {
+  margin-top: 1rem;
+}
+
+.documentationLinksContent {
+  color: var(--ifm-color-gray-700);
 }
