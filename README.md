@@ -47,6 +47,14 @@
 
 The handbook is a collection of documentation, tutorials, texts and thoughts around the Circles UBI system, community and people.
 
+## Requirements
+
+* [`NodeJS`]
+* [`yarn`]
+
+[`NodeJS`]: https://nodejs.org
+[`yarn`]: https://yarnpkg.com
+
 ## Development
 
 This static page is built using [`Docusaurus`].
