@@ -11,7 +11,7 @@
   "scripts": {
     "build": "docusaurus build",
     "clear": "docusaurus clear",
-    "lint": "eslint .",
+    "lint": "eslint ./*.js ./src/**/*.js",
     "start": "docusaurus start"
   },
   "devDependencies": {
