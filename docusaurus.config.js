@@ -63,7 +63,7 @@ module.exports = {
             },
             {
               label: 'Whitepaper',
-              to: 'docs/whitepaper',
+              to: 'docs/developers/whitepaper',
             },
           ],
         },
