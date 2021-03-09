@@ -1,8 +1,13 @@
 {
   "name": "circles-handbook",
   "version": "0.1.0",
+  "description": "Documentation of the Circles UBI system",
   "license": "CC-BY-SA-4.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CirclesUBI/circles-handbook.git"
+  },
   "scripts": {
     "build": "docusaurus build",
     "clear": "docusaurus clear",
