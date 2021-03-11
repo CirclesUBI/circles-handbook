@@ -1,0 +1,36 @@
+{
+  "name": "circles-handbook",
+  "version": "0.1.0",
+  "description": "Documentation of the Circles UBI system",
+  "license": "CC-BY-SA-4.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CirclesUBI/circles-handbook.git"
+  },
+  "scripts": {
+    "build": "docusaurus build",
+    "clear": "docusaurus clear",
+    "lint": "eslint ./*.js ./src/**/*.js",
+    "start": "docusaurus start"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.13.4",
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.1.2",
+    "prop-types": "^15.7.2"
+  },
+  "dependencies": {
+    "@docusaurus/core": "2.0.0-alpha.70",
+    "@docusaurus/preset-classic": "2.0.0-alpha.70",
+    "@mdx-js/react": "^1.6.21",
+    "clsx": "^1.1.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}
