@@ -52,3 +52,8 @@ h6 {
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+.footer__copyright {
+  padding-top: 1rem;
+  font-size: .8rem;
+}

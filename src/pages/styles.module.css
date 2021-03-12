@@ -13,11 +13,16 @@
   }
 }
 
+html[data-theme='dark'] .heroBanner {
+  color: var(--ifm-color-white);
+}
+
 .introduction {
   padding: 0 var(--ifm-spacing-horizontal);
   max-width: 40rem;
   margin: 2rem auto;
   text-align: center;
+  font-size: 1.1rem;
 }
 
 .introduction a {
@@ -32,6 +37,11 @@
 
 .buttonReadIntroduction {
   color: var(--ifm-font-color-base-inverse);
+  border-color: var(--ifm-button-border-color);
+}
+
+html[data-theme='dark'] .buttonReadIntroduction {
+  color: var(--ifm-color-white);
 }
 
 .documentationLinks {
@@ -81,4 +91,8 @@ html[data-theme='dark'] .documentationLinksItem:hover {
 
 .documentationLinksContent {
   color: var(--ifm-color-gray-700);
+}
+
+html[data-theme='dark'] .documentationLinksContent {
+  color: var(--ifm-color-gray-400);
 }
