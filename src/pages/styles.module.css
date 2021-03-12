@@ -37,7 +37,9 @@ html[data-theme='dark'] .heroBanner {
 
 .buttonReadIntroduction {
   color: var(--ifm-font-color-base-inverse);
-  border-color: var(--ifm-button-border-color);
+  /* For some reason the border gets ignored after building the page when using
+   * --ifm vars, this is why we use plain "classic" css here: */
+  border: 1px solid #fff;
 }
 
 html[data-theme='dark'] .buttonReadIntroduction {
