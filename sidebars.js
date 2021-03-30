@@ -14,6 +14,7 @@ module.exports = {
   developers: [
     'developers/getting-started',
     'developers/whitepaper',
+    'developers/tutorials',
     {
       type: 'category',
       label: 'Architecture',
