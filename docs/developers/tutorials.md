@@ -14,7 +14,9 @@ This guide shows how to reuse the Gnosis Safe web wallet for Circles.
 
 This guide shows how to mint Circles UBI (CRC) directly by calling the smart contract from Remix IDE.
 
+### [Circles by hand with sbt-ethereum](tutorials/circles-by-hand-with-sbt-ethereum.md)
 
+This tutorial will go through the exercise of creating a Circles identity by hand with sbt-ethereum.
 
 
 
