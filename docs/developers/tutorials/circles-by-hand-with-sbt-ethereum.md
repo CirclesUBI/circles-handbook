@@ -227,6 +227,7 @@ Ready to import the following ABI:
 ```
 <details><summary>Show ABI</summary>
 <p>
+
 ```
 [ {
   "type" : "constructor",
@@ -653,8 +654,10 @@ Ready to import the following ABI:
   } ]
 } ]
 ```
+
 </p>
 </details>
+
 ```
 Do you wish to import this ABi? [y/n] y
 [info] A default ABI is now known for the contract at address 0x29b9a7fBb8995b2423a71cC17cf9810798F6C543
@@ -1049,6 +1052,7 @@ Ready to import the following ABI:
 ```
 <details><summary>Show ABI</summary>
 <p>
+
 ```
 [ {
   "inputs" : [ {
@@ -1440,8 +1444,10 @@ Ready to import the following ABI:
   "type" : "function"
 } ]
 ```
+
 </p>
 </details>
+
 ```
 Do you wish to import this ABi? [y/n] y
 [info] A default ABI is now known for the contract at address 0xf910549FdbA1083B7E515029601e8Bc748774C64
@@ -1675,7 +1681,7 @@ We’ve also seen that we can trust other identities, fully or partially, to def
 
 ## Appendix: Circles hub source code
 
-<details><summary>Here is the full source code of the Circles hub. It includes the source code of the generated ERC-20 token contracts:</summary>
+<details><summary>Click here to show the full source code of the Circles hub. It includes the source code of the generated ERC-20 token contracts.</summary>
 <p>
 
 ```javascript
