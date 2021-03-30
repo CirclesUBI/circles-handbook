@@ -224,6 +224,10 @@ Scrape for the ABI? [y/n] y
 [info] Retrying, after unescaping as HTML.
 [info] We had to scrape, but we were able to recover a unique ABI from source 'https://blockscout.com/poa/xdai/address/0x29b9a7fBb8995b2423a71cC17cf9810798F6C543/contracts'!
 Ready to import the following ABI:
+```
+<details><summary>Show ABI</summary>
+<p>
+```
 [ {
   "type" : "constructor",
   "stateMutability" : "nonpayable",
@@ -648,6 +652,10 @@ Ready to import the following ABI:
     "internalType" : "address"
   } ]
 } ]
+```
+</p>
+</details>
+```
 Do you wish to import this ABi? [y/n] y
 [info] A default ABI is now known for the contract at address 0x29b9a7fBb8995b2423a71cC17cf9810798F6C543
 [info] Refreshing caches.
@@ -1038,6 +1046,10 @@ Contract ABI or Source: https://github.com/CirclesUBI/circles-contracts/blob/mas
 [info] Found JSON object. Will look for an ABI under the key 'abi'.
 [info] The data discovered at source 'https://github.com/CirclesUBI/circles-contracts/blob/master/build/contracts/Token.json' was successfully interpreted as an ABI.
 Ready to import the following ABI:
+```
+<details><summary>Show ABI</summary>
+<p>
+```
 [ {
   "inputs" : [ {
     "internalType" : "address",
@@ -1427,6 +1439,10 @@ Ready to import the following ABI:
   "stateMutability" : "nonpayable",
   "type" : "function"
 } ]
+```
+</p>
+</details>
+```
 Do you wish to import this ABi? [y/n] y
 [info] A default ABI is now known for the contract at address 0xf910549FdbA1083B7E515029601e8Bc748774C64
 [info] Refreshing caches.
@@ -1659,7 +1675,8 @@ We’ve also seen that we can trust other identities, fully or partially, to def
 
 ## Appendix: Circles hub source code
 
-Here is the full source code of the _Circles_ hub. It includes the source code of the generated ERC-20 token contracts:
+<details><summary>Here is the full source code of the Circles hub. It includes the source code of the generated ERC-20 token contracts:</summary>
+<p>
 
 ```javascript
 // File: @openzeppelin/contracts/math/SafeMath.sol
@@ -2814,3 +2831,5 @@ contract Hub {
     }
 }
 ```
+</p>
+</details>
