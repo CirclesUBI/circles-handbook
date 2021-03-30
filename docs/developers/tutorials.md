@@ -1,6 +1,6 @@
 ---
 id: tutorials
-title: Developer Tutorials
+title: Tutorials
 slug: /developers/tutorials
 ---
 
