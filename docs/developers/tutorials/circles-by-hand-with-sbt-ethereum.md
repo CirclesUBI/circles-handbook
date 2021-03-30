@@ -4,8 +4,8 @@ title: Circles by hand with sbt-ethereum
 slug: /developers/tutorials/circles-by-hand-with-sbt-ethereum
 ---
 
-## Circles by hand with sbt-ethereum
-Steve Randy Waldman 2021-03-23
+# Circles by hand with sbt-ethereum
+_Author: Steve Randy Waldman 2021-03-23_
 
 Here we’ll go through the exercise of creating a _Circles_ identity by hand with sbt-ethereum.
 
@@ -37,7 +37,7 @@ Let’s get started! I’ll assume you have [_sbt-ethereum‘s_ prerequisites](h
 
 #### Create a new project
 
-User-input is in white. The green is what the machines spews.
+Through the terminal we can create a project as shown below. When prompted for a project name I choose `circles-tutorial`. Then change into the new project directory.
 
 ```
 $ sbt new swaldman/solidity-seed.g8
@@ -71,7 +71,7 @@ name := "circles-tutorial"
 version := "0.0.1-SNAPSHOT"
 ```
 
-Because I [already have a _Circles_ identity](https://www.sbt-ethereum.io/blog/2021/03/14/Circles-with-sbt-ethereum.html), I don’t want to create a new one in my default [_sbt-ethereum_ shoebox](https://www.sbt-ethereum.io/tasks/eth/shoebox/index.html). So I’ll edit my `build.sbt` to use an empty, throwaway shoebox. <span style="color:red"> You probably don’t want to do this! You should make your own identity to keep, in your default _sbt-ethereum_ shoebox!</span>
+Because I [already have a _Circles_ identity](https://www.sbt-ethereum.io/blog/2021/03/14/Circles-with-sbt-ethereum.html), I don’t want to create a new one in my default [_sbt-ethereum_ shoebox](https://www.sbt-ethereum.io/tasks/eth/shoebox/index.html). So I’ll edit my `build.sbt` to use an empty, throwaway shoebox. **You probably don’t want to do this! You should make your own identity to keep, in your default _sbt-ethereum_ shoebox!**
 
 Since we’ll be working on the xDAI chain (chain ID 100), we’ll also make that the default chain for this project. That’s only a convenience. We can always switch to xDAI by typing `ethNodeChainIdOverride 100`.
 
