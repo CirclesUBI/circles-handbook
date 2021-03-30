@@ -4,7 +4,6 @@ title: Circles by hand with sbt-ethereum
 slug: /developers/tutorials/circles-by-hand-with-sbt-ethereum
 ---
 
-# Circles by hand with sbt-ethereum
 _Author: Steve Randy Waldman 2021-03-23_
 
 Here we’ll go through the exercise of creating a _Circles_ identity by hand with sbt-ethereum.
@@ -35,7 +34,7 @@ Since you’re too lazy to review those posts (I would be!), I’ll work from an
 
 Let’s get started! I’ll assume you have [_sbt-ethereum‘s_ prerequisites](https://www.sbt-ethereum.io/appendix/prerequisites.html), _sbt_ and a JVM, on your machine already.
 
-#### Create a new project
+### Create a new project
 
 Through the terminal we can create a project as shown below. When prompted for a project name I choose `circles-tutorial`. Then change into the new project directory.
 
@@ -61,7 +60,7 @@ Template applied in /Users/swaldman/./circles-tutorial
 $ cd circles-tutorial/
 ```
 
-#### Check out build.sbt
+### Check out build.sbt
 
 It looks like this:
 
@@ -86,7 +85,7 @@ ethcfgNodeChainId := 100 // you probably want this
 ethcfgShoeboxDirectory := "throwaway-shoebox" // you probably DON'T want this! keep your work
 ```
 
-#### Startup sbt-ethereum
+### Startup sbt-ethereum
 
 From inside the `circles-tutorial` directory…
 
@@ -205,7 +204,7 @@ sbt:circles-tutorial> eth
 
 Okay. Anyway, let’s try importing the contract ABI again. Remember, we can find the ABI embedded in the URL https://blockscout.com/poa/xdai/address/0x29b9a7fBb8995b2423a71cC17cf9810798F6C543/contracts
 
-Importing the ABI will be very little work, but will yield a ***very*** long output. Just keep scrolling!
+Importing the ABI will be very little work, but will yield a ***very*** long output. You can expand below to view it!
 
 ```
 sbt:circles-tutorial> ethContractAbiImport circles-hub
@@ -225,7 +224,7 @@ Scrape for the ABI? [y/n] y
 [info] We had to scrape, but we were able to recover a unique ABI from source 'https://blockscout.com/poa/xdai/address/0x29b9a7fBb8995b2423a71cC17cf9810798F6C543/contracts'!
 Ready to import the following ABI:
 ```
-<details><summary>Show ABI</summary>
+<details><summary><i>Show ABI</i></summary>
 <p>
 
 ```
@@ -1050,7 +1049,7 @@ Contract ABI or Source: https://github.com/CirclesUBI/circles-contracts/blob/mas
 [info] The data discovered at source 'https://github.com/CirclesUBI/circles-contracts/blob/master/build/contracts/Token.json' was successfully interpreted as an ABI.
 Ready to import the following ABI:
 ```
-<details><summary>Show ABI</summary>
+<details><summary><i>Show ABI</i></summary>
 <p>
 
 ```
