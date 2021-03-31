@@ -4,7 +4,7 @@ title: Tutorials
 slug: /developers/tutorials
 ---
 
-## Tutorials for Developers
+## For Developers
 
 ### [Use Gnosis Safe as Circles Wallet](tutorials/gnosis-safe-as-wallet.md)
 
