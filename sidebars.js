@@ -60,17 +60,18 @@ module.exports = {
         // },
       ],
     },
-    {
-      type: 'category',
-      label: 'Tutorials',
-      items: [
-        // @TODO
-        // 'developers/basic-client',
-        // 'developers/graph-queries',
-        // 'developers/deploy-contracts',
-        // 'developers/run-server',
-      ],
-    },
+    'developers/tutorials',
+    //{
+    //  type: 'category',
+    //  label: 'Tutorial',
+    //  items: [
+    //    @TODO
+    //    'developers/basic-client',
+    //    'developers/graph-queries',
+    //    'developers/deploy-contracts',
+    //    'developers/run-server',
+    //  ],
+    //},
     {
       type: 'link',
       label: 'FAQ',
