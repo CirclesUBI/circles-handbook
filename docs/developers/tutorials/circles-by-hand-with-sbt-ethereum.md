@@ -225,7 +225,7 @@ Scrape for the ABI? [y/n] y
 Ready to import the following ABI:
 ```
 <details><summary><i>Show ABI</i></summary>
-<p>
+<div>
 
 ```
 [ {
@@ -654,7 +654,7 @@ Ready to import the following ABI:
 } ]
 ```
 
-</p>
+</div>
 </details>
 
 ```
@@ -1050,7 +1050,7 @@ Contract ABI or Source: https://github.com/CirclesUBI/circles-contracts/blob/mas
 Ready to import the following ABI:
 ```
 <details><summary><i>Show ABI</i></summary>
-<p>
+<div>
 
 ```
 [ {
@@ -1444,7 +1444,7 @@ Ready to import the following ABI:
 } ]
 ```
 
-</p>
+</div>
 </details>
 
 ```
@@ -1681,7 +1681,7 @@ We’ve also seen that we can trust other identities, fully or partially, to def
 ## Appendix: Circles hub source code
 
 <details><summary>Click here to show the full source code of the Circles hub. It includes the source code of the generated ERC-20 token contracts.</summary>
-<p>
+<div>
 
 ```javascript
 // File: @openzeppelin/contracts/math/SafeMath.sol
@@ -2836,5 +2836,5 @@ contract Hub {
     }
 }
 ```
-</p>
+</div>
 </details>

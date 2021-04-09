@@ -24,9 +24,9 @@ const DocumentationLink = ({ imageUrl, title, children }) => {
 };
 
 DocumentationLink.propTypes = {
-  children: PropTypes.node.required,
-  imageUrl: PropTypes.string.required,
-  title: PropTypes.string.required,
+  children: PropTypes.node.isRequired,
+  imageUrl: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
 };
 
 const Home = () => {
