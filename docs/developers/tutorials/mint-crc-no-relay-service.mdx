@@ -3,19 +3,8 @@ id: mint-crc-no-relay-service
 title: Mint CRC without Relay Service
 slug: /developers/tutorials/mint-crc-no-relay-service
 ---
-export const FormattedImage = ({relativeSize, src, alt}) => (
-  <img
-    src={ src }
-    alt={ alt }
-    style={{
-      width: relativeSize,
-      height: relativeSize,
-      padding: '1.2rem',
-      display: 'block',
-      marginLeft: 'auto',
-      marginRight: 'auto',
-    }}/>
-);
+
+import FormattedImage from "../../../src/common/FormattedImage.js"
 
 As the Relay Service is sometimes flaky, this guide shows how to mint UBI CRC directly by calling the smart contract from Remix IDE.
 

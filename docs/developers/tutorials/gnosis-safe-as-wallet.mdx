@@ -3,19 +3,8 @@ id: gnosis-safe-tutorial
 title: Gnosis Safe as Wallet
 slug: /developers/tutorials/gnosis-safe-as-wallet
 ---
-export const FormattedImage = ({relativeSize, src, alt}) => (
-  <img
-    src={ src }
-    alt={ alt }
-    style={{
-      width: relativeSize,
-      height: relativeSize,
-      padding: '1.2rem',
-      display: 'block',
-      marginLeft: 'auto',
-      marginRight: 'auto',
-    }}/>
-);
+
+import FormattedImage from "../../../src/common/FormattedImage.js"
 
 Circles comes with circles.garden as a web wallet for Circles (CRC Tokens). Internally, during the setup, a smart contract is deployed as a multisignature wallet. This smart contract is a [Gnosis Safe](https://gnosis-safe.io/) contract, therefore the Gnosis Safe web wallet can be used to access the Circles wallet.
 

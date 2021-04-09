@@ -65,11 +65,11 @@ module.exports = {
     //  type: 'category',
     //  label: 'Tutorial',
     //  items: [
-        // @TODO
-        // 'developers/basic-client',
-        // 'developers/graph-queries',
-        // 'developers/deploy-contracts',
-        // 'developers/run-server',
+    //    @TODO
+    //    'developers/basic-client',
+    //    'developers/graph-queries',
+    //    'developers/deploy-contracts',
+    //    'developers/run-server',
     //  ],
     //},
     {
