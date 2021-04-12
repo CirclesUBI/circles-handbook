@@ -14,21 +14,21 @@ _Note: For this to work you have to have xDai (less than $1) loaded in your Meta
 
 1. Get your circles.garden profile address ('Show Profile' / browser URL (https://circles.garden/profile/) / address after /profile/)
    
-<FormattedImage relativeSize="50%" src={require("!file-loader!../../../static/images/tutorials/mint-crc-1.png").default} alt="Screenshot show profile"/>
+<FormattedImage relativeSize="50%" src={require("!file-loader!../assets/mint-crc-1.png").default} alt="Screenshot show profile"/>
 
 2. Note down the address shown in the URL of your browser, eg. https://circles.garden/profile/YOUR_PROFILE_ADDRESS it starts with “0x”
    
-<FormattedImage relativeSize="60%" src={require("!file-loader!../../../static/images/tutorials/mint-crc-2.png").default}  alt="Screenshot show profile"/>
+<FormattedImage relativeSize="60%" src={require("!file-loader!../assets/mint-crc-2.png").default}  alt="Screenshot show profile"/>
 
 3. Go to [settings](https://circles.garden/settings) and note down the Token address
    
-<FormattedImage relativeSize="40%" src={require("!file-loader!../../../static/images/tutorials/mint-crc-3.png").default}  alt="Screenshot show profile"/>
+<FormattedImage relativeSize="40%" src={require("!file-loader!../assets/mint-crc-3.png").default}  alt="Screenshot show profile"/>
 
 4. Open remix.ethereum.org
 5. Create new file  `ICirclesToken.sol`  with content from [this gist](https://gist.github.com/ice09/9bc7319dbe877bbd5e4509f4198c5687).
 6. Load contract at address of your CRC Token (make sure xDai Mainnet is active in wallet).
    
-<FormattedImage relativeSize="40%" src={require("!file-loader!../../../static/images/tutorials/mint-crc-4.jpeg").default}  alt="Screenshot show profile"/>
+<FormattedImage relativeSize="40%" src={require("!file-loader!../assets/mint-crc-4.jpeg").default}  alt="Screenshot show profile"/>
 
 7. Call "look()" to see how much UBI you could claim.
 8. Claim you UBI by calling function "update()".
