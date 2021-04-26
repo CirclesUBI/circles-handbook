@@ -91,44 +91,10 @@ const Home = () => {
           </div>
         </section>
         <p className={styles.introduction}>
-          The handbook is for <a href="/docs/users/">users</a> who want to learn
-          more about Circles, for <a href="/docs/communities">communities</a>{' '}
-          who want to set up their own alternative money system and for{' '}
-          <a href="/docs/developers">developers</a> who want to contribute to
-          the Circles codebase and understand how it works.
+          The handbook is for <a href="/docs/users/">users</a> who want to learn more about Circles, for <a href="/docs/communities">communities</a> who want to set up their own alternative money system and for <a href="/docs/developers">developers</a> who want to contribute to the Circles codebase and understand how it works.
         </p>
         <p className={styles.introduction}>
-          Circles is an Open Source project and the community adds constantly
-          new content to the handbook. If you have any ideas or changes to
-          suggest, check out the{' '}
-          <a
-            href="https://github.com/CirclesUBI/.github/blob/main/CONTRIBUTING.md"
-            rel="noreferrer"
-            target="_blank"
-          >
-            contribution guidelines
-          </a>
-          , visit our{' '}
-          <a
-            href="https://chat.joincircles.net"
-            rel="noreferrer"
-            target="_blank"
-          >
-            chat
-          </a>{' '}
-          or{' '}
-          <a href="https://aboutcircles.com" rel="noreferrer" target="_blank">
-            forum
-          </a>{' '}
-          or{' '}
-          <a
-            href="https://github.com/CirclesUBI/circles-handbook"
-            rel="noreferrer"
-            target="_blank"
-          >
-            edit
-          </a>{' '}
-          the handbook.
+          Circles is an Open Source project and the community adds constantly new content to the handbook. If you have any ideas or changes to suggest, check out the <a href="https://github.com/CirclesUBI/.github/blob/main/CONTRIBUTING.md" rel="noreferrer" target="_blank">contribution guidelines</a>, visit our <a href="https://chat.joincircles.net" rel="noreferrer" target="_blank">chat</a> or <a href="https://aboutcircles.com" rel="noreferrer" target="_blank">forum</a>or <a href="https://github.com/CirclesUBI/circles-handbook" rel="noreferrer" target="_blank">edit</a> the handbook.
         </p>
         <p className={styles.introduction}>🌿</p>
       </main>
