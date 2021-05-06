@@ -60,6 +60,18 @@ module.exports = {
         // },
       ],
     },
+    {
+      type: 'category',
+      label: 'Transitive transactions',
+      items: [
+        'developers/transitive-transactions/transfer-limitations-in-practice',
+        {
+          type: 'link',
+          label: 'circles-api',
+          href: 'https://github.com/CirclesUBI/circles-api/blob/main/API.md',
+        },
+      ],
+    },
     'developers/tutorials',
     //{
     //  type: 'category',
