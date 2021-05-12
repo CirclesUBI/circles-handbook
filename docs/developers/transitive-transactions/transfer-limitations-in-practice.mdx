@@ -9,22 +9,26 @@ import FormattedImage from "../../../src/common/FormattedImage.js"
 
 ## Transfer steps
 We define the number of transfer steps as the number of transactions that need to happen to complete the transitive transaction. 
-What path to chose for a transitive transaction is a mathematical problem that can be solved in different ways depending on what one wants to optimize for. We call the service for finding a path a pathfinder and there are already more than one available.
+What path(s) to chose for a transitive transaction is a mathematical problem that can be solved in different ways depending on what one wants to optimize for. We call the service for finding a path a pathfinder and there are already more than one available.
 
 ### Our pathfinder used for circles.garden
 You can follow the first two steps in [this tutorial](../tutorials/estimate-gas-cost) to find the transfer steps that [circles.garden](https://circles.garden) would use for any hypothetical transaction of your choice. 
 
 ### Criseth's pathfinder
 There is another pathfinder being developed [here](https://github.com/chriseth/pathfinder).
-You can use [this visual interface](https://chriseth.github.io/pathfinder/) of this pathfinder to explore the circles trust network and find different transactions. This pathfinder works slightly differently from ours.
+You can use [this visual interface](https://chriseth.github.io/pathfinder/) of this pathfinder to explore the circles trust network and find different transactions. This pathfinder works slightly differently from ours. The paths found in this interface are not necessarily the same that [circles.garden](https://circles.garden) would use. 
 
-todo: Insert an example picture here of a transaction and mention the number of transfersteps based on definition.
+### An example of counting transfer steps
+Below is an example from Criseth's pathfinder for transferring 1000 CRC between two users. We can see that this graph has 18 edges and the transaction thus requires 18 transfer steps.
+
+<FormattedImage relativesize="75%" src={require("!file-loader!../assets/transfers-number-of-steps-example.png").default} alt="Screenshot show profile"/>
+
 
 ## Gas limitations
-Each transfer in a transitive transaction costs gas. Transactions made through [circles.garden](https://circles.garden) are paid for by the Circles Coop in Eth. In terms of circle a small fee in circles is transferred for each transaction to "compensate" for this symbolically.
+Each transfer in a transitive transaction costs gas. Transactions made through [circles.garden](https://circles.garden) are paid for by the Circles Coop in Eth. In terms of CRC a small fee in circles is added for each transaction to "compensate" for this.
 
 On the Ethereum block chains all contract calls or transactions end up inside a block. A block is either accepted or rejected on the blockchain.
-All transactions in a transitive transaction should end up in the same block to make sure all steps go through or none. The maximum gas for a block is 12.500.000. This means that the total gas cost for a transitive transaction must not exceed this.
+All transactions in a transitive transaction should end up in the same block to make sure that all or none of the transfer steps go through. The maximum gas for a block is 12.500.000. This means that the total gas cost for a transitive transaction must not exceed this.
 
 In practice it is dangerous to get close to this limit. A transaction with a gas cost close to this limit might have to wait a very, very long time to fit into a block with other contract calls, because of how the Ethereum blockchain works. 
 
@@ -36,35 +40,36 @@ Following the steps in [this tutorial](../tutorials/estimate-gas-cost) gas costs
 
 <FormattedImage relativesize="75%" src={require("!file-loader!../assets/transfers-steps-to-gas-estimate.png").default} alt="Screenshot show profile"/>
 
-Extrapolating the results suggests that 107 steps would mean a gas cost of 12.500.000. As we don't want to get close to the gas limit we decided (quite arbitrarily) that we don't want to exceed half the block gas limit (6.250.000). According to the extrapolation above, we end up at 52 steps (expected to cost 6.200.000). 
+Extrapolating the results suggests that 107 steps would mean a gas cost of around 12.500.000. As we don't want to get close to the gas limit we decided (quite arbitrarily) that we don't want to exceed half the block gas limit (6.250.000). According to the extrapolation above, we end up at 52 steps (expected to cost 6.200.000). 
 
-This limit is debateable but it is very important that we don't get to close to the gas limit. Since all transactions go through the relayer, a transaction which has to wait will block all other circles transactions.
+This limit is debateable but it is very important that we don't get to close to the gas limit. Since all transactions go through the relayer, a transaction which has to wait will block all other circles transactions. So the more complex the transactions, the longer the wait for all other circles transactions.
 
-It is also worth noting that the diagram shows the gas estimate and not the actual gas, which usually ends up being about half of the actual gas cost. This gives us some extra margin too. Below are some data points for transfers of 1 CRC:
+It is also worth noting that the diagram above shows the gas estimate and not the actual gas, which usually ends up being about half of the actual gas cost. This gives us some extra margin too. Below are some data points for transfers of 1 CRC. The values are taken from blockscout for transactions that were actually sent.
 
 <FormattedImage relativesize="50%" src={require("!file-loader!../assets/transfers-different-gas.png").default} alt="Screenshot show profile"/>
 
+The maximum transfer step limit is defined programmatically in the [circles-core](https://github.com/CirclesUBI/circles-core/blob/7ba6de02de2a197c5a8f470a3f53b623fa149e10/src/token.js#L8).
 
 ## What this means in terms of maximum transfer amount
 
-When making a transfer in the [circles.garden](https://circles.garden) wallet you will get an indication of the maximum transferable amount. This number is the theoretical maximum that you can transitively transfer that the safes along the way will accept in terms of trusted tokens, without worrying about the number of transfersteps it will take. However, now we know there is in practice a limit to the number of transfer steps in a single transfer and that we have defined the maximum transfer steps to 52 in our code. 
+When making a transfer in the [circles.garden](https://circles.garden) wallet you will get an indication of the maximum transferable amount. This number is the theoretical maximum that you can transitively transfer. It is the amount that the safes along the way will accept in terms of trusted tokens, without worrying about the number of transfer steps along the way. However, now we know there is in practice a limit to the number of transfer steps in a single transfer and that we have defined the maximum transfer steps to 52 in our code. 
 
-When transferring to a friend or a friends friend this maximum limit is probably quite accurate because we probably won't need more than 52 steps. But what happens if the account we transfer to is a bit further away in the trust network? 
+When transferring to a friend or a friend's friend this maximum limit is probably quite accurate because we probably won't need more than 52 steps. But what happens if the account we transfer to is a bit further away in the trust network? 
 
-As an example we will use two accounts that are 7 trust steps away from each other as displayed in the following graph. Please note that it is generally unusual to find accounts that are so far away from eacother.
+As an example we will use two accounts that are 7 trust steps away from each other - as displayed in the following graph. Please note that it is generally unusual to find accounts that are so far away from eacother.
 
 <FormattedImage relativesize="75%" src={require("!file-loader!../assets/transfers-trust-connection.png").default} alt="Screenshot show profile"/>
 
-The diagram below shows the number of steps needed for different amounts of CRC between two example accounts, as calculated by the [circles api](https://github.com/CirclesUBI/circles-api) (version 1.3.8).
+The diagram below shows the number of steps needed for different amounts of CRC between the two example accounts, as calculated by the [circles api](https://github.com/CirclesUBI/circles-api) (version 1.3.8).
 
 <FormattedImage relativesize="75%" src={require("!file-loader!../assets/transfers-circles-to-steps.png").default} alt="Screenshot show profile"/>
 
-
-In practice, the maximum transferrable amount in a single transaction is less than 200 CRC and about one tenth of the theoretical maximum. The thoretical maximum requires around 150 steps. Also not that the number of steps increases rapidly in the begining and the number of CRC transferred is displayed logarithmically for this reason.
+In practice, the maximum transferrable amount in a single transaction is less than 200 CRC and about one tenth of the theoretical maximum. The theoretical maximum requires around 150 steps. Also note that the number of steps increases rapidly in the begining and the number of CRC transferred is displayed logarithmically for this reason.
 
 However, it doesn't have to be this bad. In this transfer graph you can see the different transfer steps for transferring the theoretical maximum (1700 CRC) between the two users, according to Chriseth's pathfinder (around 40 steps):
 
 <FormattedImage relativesize="75%" src={require("!file-loader!../assets/transfers-network.png").default} alt="Screenshot show profile"/>
 
-In conclusion, a user might not be able to make a single transfer as large as the theoretical maximum suggested by the UI. However if we would improve the pathfind this would be far less likely to happen. It would perhaps also make sense to display the practical limit per (52 step) transaction instead of the theoretical maximum. (Currently the user is told that the transaction failed due to too many hops and that they should ask the recipient to trust them directly.)
+In conclusion, a user might not be able to make a single transfer as large as the theoretical maximum suggested by the circles.garden UI. However if we would improve the pathfind this would be far less likely to happen. It would perhaps also make sense to display the practical limit per (52 step) transaction instead of the theoretical maximum. (Currently the user is told that the transaction failed due to too many hops and that they should ask the recipient to trust them directly.)
 
+We can also conclude that a steps limit of 52 can take us a long way in terms of large transfers to remote accounts, when using an efficient pathfinder.
