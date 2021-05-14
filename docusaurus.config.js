@@ -101,13 +101,11 @@ module.exports = {
             },
             {
               label: 'Code of Conduct',
-              href:
-                'https://github.com/CirclesUBI/.github/blob/main/CODE_OF_CONDUCT.md',
+              href: 'https://github.com/CirclesUBI/.github/blob/main/CODE_OF_CONDUCT.md',
             },
             {
               label: 'Contribute',
-              href:
-                'https://github.com/CirclesUBI/.github/blob/main/CONTRIBUTING.md',
+              href: 'https://github.com/CirclesUBI/.github/blob/main/CONTRIBUTING.md',
             },
           ],
         },
