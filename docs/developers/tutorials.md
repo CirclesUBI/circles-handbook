@@ -15,3 +15,7 @@ This guide shows how to mint Circles UBI (CRC) directly by calling the Smart Con
 ## [Circles by hand with sbt-ethereum](tutorials/circles-by-hand-with-sbt-ethereum.md)
 
 This tutorial will go through the exercise of creating a Circles identity by hand with sbt-ethereum.
+
+## [Exploring transfer steps and estimating the gas cost](tutorials/estimate-gas-cost)
+
+If you need to find the specific transfer steps or estimate the gas cost of a large transitive transaction without making the transaction reality you can follow this guide.

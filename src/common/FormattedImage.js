@@ -1,12 +1,12 @@
 import React from 'react';
 
-const FormattedImage = ({relativeSize, src, alt}) => (
+const FormattedImage = ({relativesize, src, alt}) => (
     <img
       src={ src }
       alt={ alt }
       style={{
-        width: relativeSize,
-        height: relativeSize,
+        width: relativesize,
+        height: relativesize,
         padding: '1.2rem',
         display: 'block',
         marginLeft: 'auto',

@@ -60,6 +60,13 @@ module.exports = {
         // },
       ],
     },
+    {
+      type: 'category',
+      label: 'Transitive transactions',
+      items: [
+        'developers/transitive-transactions/transfer-limitations-in-practice',
+      ],
+    },
     'developers/tutorials',
     //{
     //  type: 'category',
