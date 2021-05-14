@@ -117,7 +117,7 @@ const Home = () => {
           >
             contribution guidelines
           </a>
-          , visit our{' '}
+          <span>, visit our </span>
           <a
             href="https://chat.joincircles.net"
             rel="noreferrer"
@@ -125,7 +125,7 @@ const Home = () => {
           >
             chat
           </a>{' '}
-          or{' '}
+          and{' '}
           <a href="https://aboutcircles.com" rel="noreferrer" target="_blank">
             forum
           </a>{' '}
