@@ -67,18 +67,16 @@ module.exports = {
         'developers/transitive-transactions/transfer-limitations-in-practice',
       ],
     },
-    'developers/tutorials',
-    //{
-    //  type: 'category',
-    //  label: 'Tutorial',
-    //  items: [
-    //    @TODO
-    //    'developers/basic-client',
-    //    'developers/graph-queries',
-    //    'developers/deploy-contracts',
-    //    'developers/run-server',
-    //  ],
-    //},
+    {
+      type: 'category',
+      label: 'Tutorials',
+      items: [
+        'developers/tutorials/circles-by-sbt-ethereum',
+        'developers/tutorials/estimate-gas-cost',
+        'developers/tutorials/gnosis-safe-tutorial',
+        'developers/tutorials/mint-crc-no-relay-service',
+      ],
+    },
     {
       type: 'link',
       label: 'FAQ',
