@@ -35,6 +35,11 @@ html[data-theme='dark'] .heroBanner {
   justify-content: center;
 }
 
+.buttons > * {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .buttonReadIntroduction {
   color: var(--ifm-font-color-base-inverse);
   /* For some reason the border gets ignored after building the page when using

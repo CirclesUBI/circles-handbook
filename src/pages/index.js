@@ -46,6 +46,15 @@ const Home = () => {
             >
               Read foreword
             </Link>
+            <a
+              className={clsx(
+                'button button--outline button--lg',
+                styles.buttonReadIntroduction,
+              )}
+              href={useBaseUrl('docs/assets/circles-handbook.pdf')}
+            >
+              Download .pdf
+            </a>
           </div>
         </div>
       </header>
