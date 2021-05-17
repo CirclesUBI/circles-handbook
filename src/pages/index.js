@@ -51,7 +51,7 @@ const Home = () => {
                 'button button--outline button--lg',
                 styles.buttonReadIntroduction,
               )}
-              href={useBaseUrl('docs/assets/circles-handbook.pdf')}
+              href={useBaseUrl('files/circles-handbook.pdf')}
             >
               Download .pdf
             </a>
