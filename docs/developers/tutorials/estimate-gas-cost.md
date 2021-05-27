@@ -14,7 +14,7 @@ This tutorial is made for finding the transfer steps that the circles api would 
 
 ### To estimate the gas cost you will also need:
 - A metamask account connected to the first circles account
-    - You can follow [this guide](https://handbook.joincircles.net/docs/developers/tutorials/gnosis-safe-as-wallet)
+    - You can follow [this guide](gnosis-safe-as-wallet.mdx)
     - Switch from Ethereum mainnet to the xdai network. To add xdai chose custom RCP under Networks and specify the following:
         - name: xdai
         - URL: https://xdai.poanetwork.dev
