@@ -4,7 +4,7 @@ title: Circles by hand with sbt-ethereum
 slug: /developers/tutorials/circles-by-hand-with-sbt-ethereum
 ---
 
-_Author: Steve Randy Waldman 2021-03-23_
+_Author: [Steve Randy Waldman 2021-03-23](https://www.sbt-ethereum.io/blog/2021/03/23/Circles-with-sbt-ethereum-II-Circles-by-hand-redux.html)_
 
 Here we’ll go through the exercise of creating a _Circles_ identity by hand with sbt-ethereum.
 
