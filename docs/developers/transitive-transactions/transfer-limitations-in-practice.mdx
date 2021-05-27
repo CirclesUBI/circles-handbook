@@ -72,7 +72,7 @@ However, it doesn't have to be this bad. In the graph you can see that chriseth'
 
 In conclusion, it is possible that a user might not be able to make a single transfer as large as the theoretical maximum which is suggested by the circles.garden UI. However if we would improve the pathfinder this would be far less likely to happen. It would perhaps also make sense to display the practical limit per (52 step) transaction instead of the theoretical maximum. Currently the user is told that the transaction failed due to too many hops and that they should ask the recipient to trust them directly. In the example used in this study, this happens already when attempting to transfer only 200 CRC between the two users.
 
-We can also conclude that a step limit of 52 can take us a long way in terms of large transfers to remote accounts, when using an efficient pathfinder.
+We can also conclude that a step limit of 52 enables large transfers to remote accounts when using an efficient pathfinder.
 
 ## Reasons for the differences between the two pathfinders
 As mentioned above, the circles api uses a [compiled binary](https://github.com/CirclesUBI/circles-api/blob/main/pathfinder) of chriseth's pathfinder. So what is the difference? First of all we are not using the latest version of chriseth's pathfinder. But more importantly the indexing of the data from the [the Graph](https://thegraph.com/explorer/subgraph/circlesubi/circles?version=current) is performed differently and the transfer edges data on which the pathfinder runs is therefore different. This is currently being reviewed by the Circles developer team.
