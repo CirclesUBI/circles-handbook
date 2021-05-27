@@ -21,7 +21,7 @@ You can use [this visual interface](https://chriseth.github.io/pathfinder/) of t
 ### An example of counting transfer steps
 Below is an example from criseth's pathfinder for transferring 1000 CRC between two users. We can see that this graph has 18 edges and the transaction thus requires 18 transfer steps.
 
-<FormattedImage relativesize="75%" src={require("!file-loader!../assets/transfers-number-of-steps-example.png").default} alt="Screenshot show profile"/>
+<FormattedImage relativesize="100%" src={require("!file-loader!../assets/transfers-number-of-steps-example.png").default} alt="Screenshot show profile"/>
 
 
 ## Gas limitations
@@ -38,7 +38,7 @@ Because of the limitations to the gas costs we have to set a maximum limit to th
 
 Following the steps in [this tutorial](../tutorials/estimate-gas-cost.md) gas costs for a number of hypothetical transactions were estimated. The results are displayed in this figure:
 
-<FormattedImage relativesize="75%" src={require("!file-loader!../assets/transfers-steps-to-gas-estimate.png").default} alt="Screenshot show profile"/>
+<FormattedImage relativesize="85%" src={require("!file-loader!../assets/transfers-steps-to-gas-estimate.png").default} alt="Screenshot show profile"/>
 
 Extrapolating the results suggests that 107 steps would mean a gas cost of around 12.500.000. As we don't want to get close to the gas limit we decided (quite arbitrarily) that we don't want to exceed half the block gas limit (6.250.000). According to the extrapolation above, we end up at 52 steps (expected to cost 6.200.000). 
 
@@ -46,7 +46,7 @@ This limit is debateable but it is very important that we don't get to close to 
 
 It is also worth noting that the diagram above shows the gas estimate and not the actual gas, which usually ends up being about half of the actual gas cost. This gives us some extra margin too. Below are some data points for transfers of 1 CRC. The values are taken from blockscout for transactions that were actually sent.
 
-<FormattedImage relativesize="50%" src={require("!file-loader!../assets/transfers-different-gas.png").default} alt="Screenshot show profile"/>
+<FormattedImage relativesize="60%" src={require("!file-loader!../assets/transfers-different-gas.png").default} alt="Screenshot show profile"/>
 
 The maximum transfer step limit is defined programmatically in the [circles-core](https://github.com/CirclesUBI/circles-core/blob/main/src/token.js#L13).
 
@@ -58,17 +58,17 @@ When transferring to a friend or a friend's friend this maximum limit is probabl
 
 As an example we will use two accounts that are 7 trust steps away from each other - as displayed in the following graph. Please note that it is generally unusual to find accounts that are so far away from each other.
 
-<FormattedImage relativesize="75%" src={require("!file-loader!../assets/transfers-trust-connection.png").default} alt="Screenshot show profile"/>
+<FormattedImage relativesize="100%" src={require("!file-loader!../assets/transfers-trust-connection.png").default} alt="Screenshot show profile"/>
 
 The diagram below shows the number of steps needed for different amounts of CRC between the two example accounts, as calculated by the [circles api](https://github.com/CirclesUBI/circles-api) (version 1.3.8).
 
-<FormattedImage relativesize="90%" src={require("!file-loader!../assets/transfers-circles-to-steps.png").default} alt="Screenshot show profile"/>
+<FormattedImage relativesize="100%" src={require("!file-loader!../assets/transfers-circles-to-steps.png").default} alt="Screenshot show profile"/>
 
 In practice, the maximum transferable amount in a single transaction is less than 200 CRC and about one tenth of the theoretical maximum. The theoretical maximum requires around 150 steps. Also note that the number of steps increases rapidly in the beginning and the number of CRC transferred is displayed logarithmically for this reason.
 
 However, it doesn't have to be this bad. In the graph you can see that chriseth's pathfinder requires drastically fewer steps. In the transfer graph below you can see the different transfer steps for transferring the theoretical maximum (1700 CRC) between the two users, according to the version of chriseth's pathfinder used in the visual explorer (2021-05-14) (around 40 steps):
 
-<FormattedImage relativesize="75%" src={require("!file-loader!../assets/transfers-network.png").default} alt="Screenshot show profile"/>
+<FormattedImage relativesize="100%" src={require("!file-loader!../assets/transfers-network.png").default} alt="Screenshot show profile"/>
 
 In conclusion, it is possible that a user might not be able to make a single transfer as large as the theoretical maximum which is suggested by the circles.garden UI. However if we would improve the pathfinder this would be far less likely to happen. It would perhaps also make sense to display the practical limit per (52 step) transaction instead of the theoretical maximum. Currently the user is told that the transaction failed due to too many hops and that they should ask the recipient to trust them directly. In the example used in this study, this happens already when attempting to transfer only 200 CRC between the two users.
 
