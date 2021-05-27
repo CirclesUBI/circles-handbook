@@ -1,5 +1,10 @@
 module.exports = {
-  users: ['users/foreword', 'users/what-is-ubi', 'users/what-is-circles'],
+  users: [
+    'users/foreword',
+    'users/what-is-ubi',
+    'users/what-is-circles',
+    'users/how-does-it-work',
+  ],
   communities: [
     'communities/social-economic-organization',
     'communities/principles',
