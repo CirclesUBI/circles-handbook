@@ -10,7 +10,7 @@ This tutorial is made for finding the transfer steps that the circles api would 
 ### To find the transfer steps you will need:
 - A circles account with enough circles
 - The checksummed* safe address to that account (you can find it in your circles wallet) 
-- The checksummed* adddress to another account you want to transfer to
+- The checksummed* address to another account you want to transfer to
 
 ### To estimate the gas cost you will also need:
 - A metamask account connected to the first circles account
