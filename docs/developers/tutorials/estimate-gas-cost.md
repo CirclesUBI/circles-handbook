@@ -3,6 +3,8 @@ id: estimate-gas-cost
 title: Exploring transfer steps and estimating the gas cost
 slug: /developers/tutorials/estimate-gas-cost
 ---
+_Author: Louise Linné 2021-05-06_
+
 This tutorial is made for finding the transfer steps that the circles api would chose to make a **hypothetical transitive transaction**. It also explains how to find the estimated gas cost.
 
 ### To find the transfer steps you will need:
