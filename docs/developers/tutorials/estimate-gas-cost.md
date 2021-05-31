@@ -9,13 +9,13 @@ This tutorial is made for finding the transfer steps that the circles api would 
 
 ### To find the transfer steps you will need:
 - A circles account with enough circles
-- The checksummed* safe address to that account (you can find it in your circles wallet) 
-- The checksummed* address to another account you want to transfer to
+- The checksummed* safe address of that account (you can find it in your circles wallet under Settings as "Profile address") 
+- The checksummed* address of another account you want to transfer to
 
 ### To estimate the gas cost you will also need:
 - A metamask account connected to the first circles account
     - You can follow [this guide](gnosis-safe-as-wallet.mdx)
-    - Switch from Ethereum mainnet to the xdai network. To add xdai chose custom RCP under Networks and specify the following:
+    - Switch from Ethereum mainnet to the xDai network. To add xDai chose custom RCP under Networks and specify the following:
         - name: xdai
         - URL: https://xdai.poanetwork.dev
         - Chain ID: 100
@@ -36,11 +36,13 @@ Run this command in the terminal with your specified data
 ```shell=fish
 curl -H "Content-Type: application/json" -X POST -d '{"from":"<FROM_ADDRESS>","to":"<TO_ADDRESS>","value":"<AMOUNT OF CIRCLES IN WEI>"}' https://api.circles.garden/api/transfers
 ```
+An example:
+
 ```shell=fish
 curl -H "Content-Type: application/json" -X POST -d '{"from":"0x0B900CBbc0e6bc4edc12f56360C8bC141eD1cc1b","to":"0x6dd9EEAb489b59bdd57a59694bEe653feCE987b6","value":"100000000000000000000"}' https://api.circles.garden/api/transfers
 ```
-This is what the circles.garden](https://circles.garden/) wallet calls to find out how much you can send to an account when doing a transaction through the app.
-It uses a large amounts of circles to get the maximum amount:
+This is what the [circles.garden](https://circles.garden/) wallet calls to find out how much you can send to an account when doing a transaction through the app.
+It uses a large amount of circles to get the maximum amount:
 1 000 000 000 000 000 000 000 000 000 000 000 Wei = 1 trillion circles. (1 Circle is 1 000 000 000 000 000 000 Wei)
 
 The result will look something like this:
@@ -65,7 +67,7 @@ The result will look something like this:
 
 3. **Extract data arrays specifying the transfers**
 
-Use a script like this to extract arrays of token owners, to, from and values:
+Use a script like this to extract arrays of `token owners`, `to`, `from` and `values`:
 
 ```javascript
 const transfers = require('./transfer.json');
@@ -93,8 +95,8 @@ Then remove white spaces and make sure quotations are double quotations.
 
 4. **Get the hex data for the transaction**
 
-Now that you have the lists of tokenOwnerAddresses, srcs, dests and amounts, go to [the circles Hub on blockscout](https://blockscout.com/poa/xdai/address/0x29b9a7fBb8995b2423a71cC17cf9810798F6C543/write-contract) 
-In the write contract tab:
+Now that you have the lists of `tokenOwnerAddresses`, `srcs`, `dests` and `amounts`, go to [the circles Hub on blockscout](https://blockscout.com/xdai/mainnet/address/0x29b9a7fBb8995b2423a71cC17cf9810798F6C543/transactions). 
+In the "Write Contract" tab:
 - connect to your metamask account
 - use "3.transferThrough" and paste the value arrays from above
 - click "write"
