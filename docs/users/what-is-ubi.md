@@ -1,17 +1,17 @@
 ---
 id: what-is-ubi
-title: What is UBI?
+title: UBI là gì?
 slug: /users/what-is-ubi
 ---
 
-To understand what Circles is, we must begin by asking: What is Universal Basic Income (UBI)?
+Để hiểu cộng đồng Circles là gì, chúng ta phải bắt đầu bằng cách hỏi: Thu nhập cơ bản chung (UBI) là gì?
 
-According to the Basic Income Earth Network (BIEN), basic income is a periodic money payment unconditionally delivered to all on an individual basis, without means-test or work requirement. UBI has thus 5 characteristics:
+Theo Mạng lưới Thu nhập Cơ bản Trái đất(BIEN), thu nhập cơ bản là khoản thanh toán tiền định kỳ được phân phối vô điều kiện cho tất cả mọi người trên cơ sở cá nhân, không cần kiểm tra phương tiện hoặc yêu cầu công việc. UBI có 5 đặc điểm:
 
-1. Periodic—It is paid at regular intervals (for example every month), not as a one-off grant.
-2. Cash payment—It is paid in an appropriate medium of exchange, allowing those who receive it to decide what they spend it on. It is not, therefore, paid either in kind (such as food or services) or in vouchers dedicated to a specific use.
-3. Individual—It is paid on an individual basis—and not, for instance, to households.
-4. Universal—It is paid to all, without means test.
-5. Unconditional—It is paid without a requirement to work or to demonstrate willingness-to-work. (reference [basicincome.org](https://basicincome.org))
+1. Định kỳ — Khoản tiền này được thanh toán đều đặn (ví dụ: hàng tháng), không phải là khoản trợ cấp một lần.
+2. Thanh toán bằng tiền mặt — Nó được thanh toán bằng một phương tiện trao đổi thích hợp, cho phép những người nhận được tiền quyết định họ chi tiêu vào việc gì. Do đó, nó không được thanh toán bằng hiện vật (chẳng hạn như đồ ăn hoặc dịch vụ) hoặc bằng chứng từ dành riêng cho một mục đích sử dụng cụ thể.
+3. Cá nhân — Nó được trả trên cơ sở cá nhân — và chẳng hạn, không phải cho hộ gia đình.
+4. Universal — Nó được trả cho tất cả, không cần thử nghiệm.
+5. Vô điều kiện — Nó được trả mà không có yêu cầu làm việc hoặc chứng tỏ sự sẵn sàng làm việc. (tham khảo [basicincome.org] (https://basicincome.org))
 
-While the definition does talk about UBI being a “cash payment” given in an “adequate means of exchange”, it does not tell us anything about where this money will come from, the institutions that will bring it into being or the nature of this money more generally. In this handbook, we focus on a grassroots democratic view of money: you can think of Circles as a people powered money.
+Mặc dù định nghĩa nói về UBI là một “khoản thanh toán bằng tiền mặt” được đưa ra dưới dạng “phương tiện trao đổi thích hợp”, nhưng nó không cho chúng ta biết bất cứ điều gì về nguồn tiền này từ đâu, các tổ chức sẽ tạo ra nó hoặc bản chất của nó. tiền nói chung hơn. Trong cuốn sổ tay này, chúng tôi tập trung vào quan điểm dân chủ cơ sở về tiền: bạn có thể coi Circles như một người cung cấp tiền.
