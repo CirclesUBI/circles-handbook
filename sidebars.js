@@ -18,6 +18,7 @@ module.exports = {
   ],
   developers: [
     'developers/getting-started',
+    'developers/overview',
     'developers/whitepaper',
     {
       type: 'category',
