@@ -1,9 +1,9 @@
 ---
 id: docs
-title: Handbook
+title: Manuel
 slug: /
 ---
 
-This is the official documentation of [Circles UBI](https://joincircles.net), a basic income made to promote local economy within your community.
+Ceci est la documentation officielle de [Circles RBU](https://joincircles.net), un revenu de base conçu pour promouvoir l'économie locale au sein de votre communauté.
 
-The handbook is for [users](/docs/users) who want to learn more about Circles, for [communities](/docs/communities) who want to set up their own alternative money system and for [developers](/docs/developers) who want to contribute to the Circles codebase and understand how it works.
+Le manuel s'adresse aux [utilisateurs](/docs_fr/users) qui veulent en savoir plus sur les Circles, aux [communautés](/docs_fr/communities) qui souhaitent mettre en place leur propre système de monnaie alternative  et aux [développeurs](/docs_fr/developers) qui veulent contribuer au code source de Circles et en comprendre le fonctionnement.

@@ -1,4 +1,4 @@
-````---
+---
 id: how-does-it-work
 title: Comment ça marche?
 slug: /users/how-does-it-work
