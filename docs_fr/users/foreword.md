@@ -4,7 +4,7 @@ title: Avant-Propos
 slug: /users
 ---
 
-## À la recherche de la Monnaie commun**
+## À la recherche de la Monnaie commun
 
 Les monnaies émergentes sont un outil pratique qui permet la démocratisation des ressources en temps de crise. Une confédération de telles monnaies  communautaires locales, parallèlement à la relocalisation parallèle des relations économiques, pourrait être appelée la Monnaie Commune. Une confederation de ces  monnaies de la communité locale, aux coté de rélocalisation des relations économiques pourrait être appelée la Monnaie Commune. La monnaie commune est un mouvement contre la financiarisation. C'est une tentative de démocratiser les institutions qui  sont chargé de  la création monétaire aujourd'hui - les banques centrales et privées - et de les transformer à nouveau pour démocratiser l'économie elle-même. Le revenu de base universel (RBU) est un changement de paradigme civilisationnel.La transformation de la monnaie, sa démocratisation en une monnaie commune propulsé par les gens, émise par les gens comme un revenu universel et inconditionnel, fait partie de la clé qui libérera la cohabitation pacifique de l'humanité avec d'autres formes de vie de manière durable, mais seulement si cela est fait correctement.
 
