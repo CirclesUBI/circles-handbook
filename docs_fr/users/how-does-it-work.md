@@ -1,9 +1,9 @@
----
+````---
 id: how-does-it-work
-title: How does it work?
+title: Comment ça marche?
 slug: /users/how-does-it-work
 ---
 
-You can read the whitepaper about circles [here](../developers/whitepaper.md).
+Vous pouvez lire le livre blanc sur les Circles [ici] (../developers/whitepaper.md).
 
-More information can also be found in [the FAQ section on joincircles.net](https://joincircles.net/faq).
+Des informations supplémentaires peuvent consultées dans [la section FAQ sur joincircles.net](https://joincircles.net/faq).
