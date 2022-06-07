@@ -6,7 +6,7 @@ slug: /developers
 
 This section of the handbook is still being worked on. For the time being, the best way to get an overview of Circles is to read the [whitepaper](/docs/developers/whitepaper). If you are interested in contributing to the Circles project, you can read the [Contribution Guidelines](https://github.com/CirclesUBI/.github/blob/main/CONTRIBUTING.md) and check out the [GitHub organization](https://github.com/CirclesUBI).
 
-If you have any questions feel write to write them to the developers and community members in the official [Circles Chat](https://chat.joincircles.net) and [Forum](https://aboutcircles.com).
+If you have any questions feel free to write them to the developers and community members in the official [Circles Chat](https://chat.joincircles.net) and [Forum](https://aboutcircles.com).
 
 ## Contract Addresses
 
