@@ -10,8 +10,8 @@ If you have any questions feel free to write them to the developers and communit
 
 ## Contract Addresses
 
-The Circles Smart Contracts are deployed on the [xDai](https://www.xdaichain.com/for-developers/developer-resources) network:
+The Circles Smart Contracts are deployed on [Gnosis Chain](https://docs.gnosischain.com/developers/):
 
-- Circles Hub: `0x29b9a7fBb8995b2423a71cC17cf9810798F6C543`
-- Gnosis Master Safe: `0x2CB0ebc503dE87CFD8f0eCEED8197bF7850184ae`
-- Gnosis Proxy Factory: `0x8b4404DE0CaECE4b966a9959f134f0eFDa636156`
+- Circles Hub: [`0x29b9a7fBb8995b2423a71cC17cf9810798F6C543`](https://gnosisscan.io/address/0x29b9a7fbb8995b2423a71cc17cf9810798f6c543/advanced#code)
+- Gnosis Master Safe: [`0x2CB0ebc503dE87CFD8f0eCEED8197bF7850184ae`](https://gnosisscan.io/address/0x2CB0ebc503dE87CFD8f0eCEED8197bF7850184ae/advanced#code)
+- Gnosis Proxy Factory: [`0x8b4404DE0CaECE4b966a9959f134f0eFDa636156`](https://gnosisscan.io/address/0x8b4404DE0CaECE4b966a9959f134f0eFDa636156/advanced#code)
