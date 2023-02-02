@@ -25,7 +25,7 @@ Source: [Semanthics scholars](https://www.semanticscholar.org/paper/Contra-*%3A-
 **Ethereum**
 
 - [Descentralised blockchain platform](https://ethereum.org/en/developers/docs/).
-- An [Ethereum Client](https://ethereum.org/en/developers/docs/nodes-and-clients/) is a node of the network. There are different [node types](https://ethereum.org/en/developers/docs/nodes-and-clients/) and node implementations (Nethermind, OpenEthereum).
+- An [Ethereum Client](https://ethereum.org/en/developers/docs/nodes-and-clients/) is a node of the network. There are different [node types](https://ethereum.org/en/developers/docs/nodes-and-clients/) and node implementations (we use Nethermind).
 - [Ethereum full node vs archive node](https://www.quicknode.com/guides/infrastructure/ethereum-full-node-vs-archive-node): Full nodes are the nodes that copy and verify transactions on the blockchain and help maintain the blockchain state. They store the state of the most recent 128 blocks. Archive nodes are full nodes running with a special option known as "archive mode". Archive nodes have all the historical data of the blockchain since the genesis block.
 - Running your own node can be difficult and you don’t always need to run your own instance. In this case, you can use a third party API provider like [GetBlock](https://getblock.io/) or [QuickNode](https://www.quicknode.com/).
 - Every Ethereum client implements an [JSON-RPC API](https://ethereum.org/en/developers/docs/apis/json-rpc/).
@@ -39,7 +39,7 @@ Source: [Semanthics scholars](https://www.semanticscholar.org/paper/Contra-*%3A-
     - Token: a simple transaction specifies `{from, to, value, token}`
     - Smart Contracts
 - When multiple nodes are processing a transaction, they need to reach an agreement using a [consensus mechanism](https://ethereum.org/en/developers/docs/consensus-mechanisms/).
-- [Proof of Stake (PoS)](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/) will be the future of Gnosis Chain and Ethereum as concesus mechanism.
+- [Proof of Stake (PoS)](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/) is the consensus mechanism of Gnosis Chain and Ethereum.
 
 
 
@@ -54,9 +54,9 @@ Ethereum has developer-friendly languages for writing smart contracts such as [S
 
 **Circles Protocol**
 
-The Circles protocol is a set of smart contracts that are currently deployed on the [xDai/Gnosis Chain](https://www.xdaichain.com/), which is a stable payments EVM (Ethereum Virtual Machine) blockchain.
+The Circles protocol is a set of smart contracts that are currently deployed on the [Gnosis Chain](https://www.gnosis.io/), which is a stable payments EVM (Ethereum Virtual Machine) blockchain.
 
-Development on Gnosis Chain (GC) is easy and intuitive for Ethereum developers. Since GC is an EVM chain, smart contracts can be written and deployed in exactly the same way simply by setting a [different RPC endpoint](https://www.xdaichain.com/for-developers/developer-resources#json-rpc-endpoints).
+Development on Gnosis Chain (GC) is easy and intuitive for Ethereum developers. Since GC is an EVM chain, smart contracts can be written and deployed in exactly the same way simply by setting a [different RPC endpoint](https://docs.gnosischain.com/tools/rpc).
 
 ![Blockchain/Circles World](https://i.imgur.com/xNCmwMp.png)
 
@@ -74,7 +74,7 @@ The main [Circles smart contracts](https://github.com/CirclesUBI/circles-contrac
         - **Trust:** provides trust from a user to another.
     - Any ethereum address can sign up in the Hub (smart contracts, EOA...) and participate in the trust network.
     - Subscription to the Hub through sockets.
-    - There is only [one hub](https://blockscout.com/poa/xdai/address/0x29b9a7fBb8995b2423a71cC17cf9810798F6C543/read-contract) currently deployed on GC. 
+    - There is only [one hub](https://blockscout.com/xdai/mainnet/address/0x29b9a7fBb8995b2423a71cC17cf9810798F6C543/read-contract) currently deployed on GC. 
     - As it is, the hub works, in case a new hub is implemented it will be necessary to migrate all users from one hub to another. 
     
 - **[Token Smart Contract](https://github.com/CirclesUBI/circles-contracts/blob/master/contracts/Token.sol)**
@@ -93,15 +93,15 @@ The main [Circles smart contracts](https://github.com/CirclesUBI/circles-contrac
     - The owner of the Safe (the keypair/ethereum account) manages the Safe, and can sign transactions on behalf of the Safe.
     - Organizations (also called Shared Wallets) are also Safes, without a token, and with many owners.
     - The Safe used in Circles is a clone of the Master copy. The version is explicitly set in the application.
-    - Currently the fork circles.garden uses is a modified version of Safe `v1.1.0`. However, GnosisSafe is already in `v1.3.0`.
+    - Currently circles.garden uses the Safe `v1.3.0+L2`.
 
 - **[Gnosis Proxy Factory](https://github.com/gnosis/safe-contracts/blob/main/contracts/proxies/GnosisSafeProxyFactory.sol) and Gnosis Master Safe**
     - Deploying a GnosisSafe smart contract in the blockchain is expensive.
     - Therefore, the Proxy Factory and the Master Copy are used for reducing the cost of the deployment of a new Safe.
     - Every deployment using GnosisSafe is done through the Proxy Factory, which is deployed once per blockchain. Only unique parts of the Safe smart contracts are deployed, making less expensive to deploy a new Safe.
     - There's one deployment per version. For example:
-        - 1.1.1 -> the one Circles-Garden uses
-        - 1.3.0 -> the one Circles-Garden will migrate to
+        - 1.1.1 -> the one Circles-Garden used before
+        - 1.3.0 -> the one Circles-Garden uses now
 
 There are also Ethereum events from the smart contracts, so our services can listen to blockchain events.
 
@@ -109,12 +109,12 @@ There's a new upgrade path, which will have to be verified by the community. Rea
 
 ## Layer 1 - Circles Garden Services Layer
 
-Up to now, the blockchain and the smart contract world is the common environment where different Circles apps (or wallets) and services live on top of, such as **circles.garden** or **circles.land**.
+Up to now, the blockchain and the smart contract world is the common environment where different Circles apps (or wallets) and services live on top of, such as **circles.garden**, **circles.pink**, or **https://staging.circlesubi.id/#/**.
 
 The Circles Garden system architecture has multiple intermediate services to interact with the Blockchain world to overcome different limitations:
 
 - Relayer
-- The Graph
+- graph-node
 - Api
 - Pathfinder
 - Trust and Capacity Networks
@@ -128,13 +128,13 @@ Let's describe each one of the services by explaining the limitations they are s
 
 Every transaction in Ethereum carries some fees. The payment can be done with a token through an account that can be verified.
 
-In the Ethereum mainnet these transactions are costly, that's the reason why Circles uses xDai side chain. In xDai/Gnosis chain the payment is done for validation, not for mining, because it uses the PoA consensus algorithm.
+In the Ethereum mainnet these transactions are costly, that's the reason why Circles uses Gnosis side chain.
 
 The relayer main purpose is to make transaction fees payment transparent for the user.
 
 #### Solution
 
-The Relayer pays for the transaction fees on behalf of the user through meta-transactions (see ERC20 specification) to the xDai/Gnosis Chain. It pays for the Safe deployment and the gas fees for all the users of circles.garden. Therefore, the relayer can be used for controlling expenses since writing in the blockchain is always done through this service. 
+The Relayer pays for the transaction fees on behalf of the user through meta-transactions (see ERC20 specification) to the Gnosis Chain. It pays for the Safe deployment and the gas fees for all the users of circles.garden. Therefore, the relayer can be used for controlling expenses since writing in the blockchain is always done through this service. 
 
 Also, as it deploys the Safe for the users, it takes care of which version of Safe contract is used.
 
@@ -159,16 +159,16 @@ The main bottleneck is scalabitily. There is only one relayer, which means, this
 The relayer takes care of some other tasks, that could be moved to a different service in order to mitigate the delays and improve simplification, such as: 
 - create and pay for the Safe
 - keep track of the nonce
-- scans the gas price, unnecessary since gas price is static in xDai
+- scans the gas price
 
 ####  Missing features
 
-- Recovery mode to react to reorgs. Sometimes the relayer gets stuck because a transaction is registered in the DB but actually didn't happen in the blockchain and the nonce gets out of sync. The relayer was created for mainnet, not for xDai, where forks happen more often
+- Recovery mode to react to reorgs. Sometimes the relayer gets stuck because a transaction is registered in the DB but actually didn't happen in the blockchain and the nonce gets out of sync. The relayer was created for mainnet, not for Gnosis Chain, where forks happen more often
 - Restart mechanism
 - Failure tracing: errors are not propagated to the DApp
 - Paralellelization: Having different relayers (different keys), sharing a db or making them not needing the db too much
 
-### [The Graph](https://github.com/CirclesUBI/circles-subgraph) 
+### [The Graph](https://github.com/graphprotocol/graph-node)
 
 #### Purpose
 
@@ -202,7 +202,7 @@ That information retrieved from the events is structured in a way that is useful
 
 ####  Bottlenecks
 
-We are currently unig a subgraph deployed in the [free Hosted Service of The Graph](https://thegraph.com/hosted-service/subgraph/circlesubi/circles). The Hosted Service is a centralised service run by Edge & Node, one of the core developer teams at The Graph. It is free to both deploy and query subgraphs on the Hosted Service.
+We are currently using a subgraph deployed in our [self-hosted service](https://github.com/CirclesUBI/circles-iac/tree/main/ansible/roles/graph-protocol) and keep backup in the [free Hosted Service of The Graph](https://thegraph.com/hosted-service/subgraph/circlesubi/circles-ubi). The Hosted Service is a centralised service run by Edge & Node, one of the core developer teams at The Graph. It is free to both deploy and query subgraphs on the Hosted Service.
 
 Synchronisation is often lost between the subgraph and the blockchain. This can be seen in the [dashboard](https://dashboard.circles.garden/). The effect in the webapp is that the data comes with an undessirable delay.
 
@@ -239,12 +239,11 @@ The Hub transfer() method does not provide a transitive transaction path between
 
 #### Solution
 
-Circles.garden uses a version of a pathfinder [implemented by Chriseth](https://github.com/chriseth/pathfinder). This pathfinder uses a maxflow algorithm to come up with a path for the transitive transfers. It traverses possible paths from source to destination and returns the transfer steps of the calculated path.
+Circles.garden uses a version of a pathfinder [implemented by Chriseth](https://github.com/chriseth/pathfinder2). This pathfinder uses a maxflow algorithm to come up with a path for the transitive transfers. It traverses possible paths from source to destination and returns the transfer steps of the calculated path.
 
 #### Implementation
 
-The API worker maintains a capacity network in its database by subscribing to blockchain events (Trust, 
-Transfer). The API worker handles the events in different queues.
+The API worker maintains a capacity network in its database by subscribing to blockchain events (Trust, Transfer). The API worker handles the events in different queues.
 
 The pathfinder uses the capacity network data to calculate the maxflow path, and then returns the [transfer steps](https://chriseth.github.io/pathfinder/) necessary to make a transitive transaction from A to B.
 
@@ -278,11 +277,3 @@ To build the capacity network, the trust network is required because querying th
 The blockchain is the ultimate source of truth. In every block there is a potential change of the trust network. But in the blockchain the data is not structured.
 
 The indexing tasks done by the graph and the api-worker take time, therefore the status will be always relatively old (the blockchain keeps adding blocks).
-
-## Known Incompatibilities with other Circles Systems in the Ecosystem
-
-- Circles Land:
-    - If a user is created through circles land, the capability of displaying which safes a user owns is missing. See issues [59](https://github.com/CirclesUBI/circles-subgraph/issues/59), [44](https://github.com/CirclesUBI/circles-subgraph/issues/44) and [5](https://github.com/CirclesUBI/safe-contracts/issues/5), and the project board [24](https://github.com/orgs/CirclesUBI/projects/24).
-
-    - User data is partitioned. Data from a specific user can only be retrieved from the API of the system where they registered (circles.garden or circles.land).
-
