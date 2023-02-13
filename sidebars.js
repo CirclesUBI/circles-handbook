@@ -29,6 +29,7 @@ module.exports = {
         // 'developers/transitive-transfers',
         // 'developers/ubi-inflation',
         // 'developers/dead-man-switch',
+        'developers/architecture/tech-overview',
       ],
     },
     {

@@ -1,6 +1,8 @@
-# Technical Architecture Circles Garden
-
-
+---
+id: tech-overview
+title: Technical Architecture Overview for Circles Garden
+slug: /developers/architecture/tech-overview
+---
 ## System Description
 
 The system can be decomposed into two layers: 
