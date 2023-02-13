@@ -9,7 +9,7 @@ The system can be decomposed into two layers:
 **Layer 0** --> Blockchain layer
 **Layer 1**  --> Circles Garden Services Layer
 
-![]()![](https://i.imgur.com/Ie0H1Wz.png)
+`()![](https://i.imgur.com/Ie0H1Wz.png)`
 
 ## Layer 0 - Blockchain layer
 
@@ -21,7 +21,7 @@ To understand Circles infrastructure, it is necesssary to understand the Blockch
 - There is a limitation of how many transactions can be processed per time or per block.
 - Transactions wait in the memory pool before being added into a block:
 
-![Memory pool and transactions](https://i.imgur.com/RadXWx5.png)
+`![Memory pool and transactions](https://i.imgur.com/RadXWx5.png)`
 Source: [Semanthics scholars](https://www.semanticscholar.org/paper/Contra-*%3A-Mechanisms-for-Countering-Spam-Attacks-on-Saad-Kim/0dd0a39b30fe4ad5fc637ba4f571623ed385b752)
 
 **Ethereum**
@@ -60,7 +60,7 @@ The Circles protocol is a set of smart contracts that are currently deployed on 
 
 Development on Gnosis Chain (GC) is easy and intuitive for Ethereum developers. Since GC is an EVM chain, smart contracts can be written and deployed in exactly the same way simply by setting a [different RPC endpoint](https://docs.gnosischain.com/tools/rpc).
 
-![Blockchain/Circles World](https://i.imgur.com/xNCmwMp.png)
+`![Blockchain/Circles World](https://i.imgur.com/xNCmwMp.png)`
 
 Read the [white paper](https://handbook.joincircles.net/docs/developers/whitepaper/) for context, where the Circles protocol is abstracted. Actually, the Circles protocol could be implemented in any other platform (not in Ethereum, which is a really slow and inefficient db).
 
@@ -269,7 +269,7 @@ It holds information regarding how much a user can send to another user of each 
 
 Capacity/trust network diagram:
 
-![](https://i.imgur.com/NhlE6zw.png)
+`![](https://i.imgur.com/NhlE6zw.png)`
 
 
 To build the capacity network, the trust network is required because querying the blockchain is too expensive. The API worker keeps the edges of the capacity network up to date.
