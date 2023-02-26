@@ -1,6 +1,6 @@
 ---
 id: tech-overview
-title: Technical Architecture Overview for Circles Garden
+title: Technical Overview for Circles Garden
 slug: /developers/architecture/tech-overview
 ---
 import FormattedImage from "../../../src/common/FormattedImage.js"

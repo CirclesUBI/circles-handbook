@@ -21,7 +21,7 @@ module.exports = {
     'developers/whitepaper',
     {
       type: 'category',
-      label: 'Architecture',
+      label: 'System Architecture',
       items: [
         // @TODO
         // 'developers/wallets',
