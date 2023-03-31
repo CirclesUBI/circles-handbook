@@ -4,7 +4,7 @@ title: Democratic Assemblies
 slug: /communities/democratic-assemblies
 ---
 
-> "… the mistakes that are made by a truly revolutionary orkers’ movement are, historically speaking,immeasurably more fruitful and more valuable than the infallibility of the best possible ‘Central Committee’." - Rosa Luxemburg, critiquing the Russian revolution
+> "… the mistakes that are made by a truly revolutionary workers’ movement are, historically speaking,immeasurably more fruitful and more valuable than the infallibility of the best possible ‘Central Committee’." - Rosa Luxemburg, critiquing the Russian revolution
 
 The following outlines a practical governance structure which the Circles communities: seasonal democratic assemblies.
 
