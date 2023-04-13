@@ -96,7 +96,7 @@ Then make sure there are no quotations in the elements list.
 
 4. **Get the hex data for the transaction**
 
-Now that you have the lists of `tokenOwnerAddresses`, `srcs`, `dests` and `amounts`, go to [the circles Hub on blockscout](https://gnosisscan.io/address/0x29b9a7fBb8995b2423a71cC17cf9810798F6C543#writeContract). 
+Now that you have the lists of `tokenOwnerAddresses`, `srcs`, `dests` and `amounts`, go to [the circles Hub on blockscout](https://gnosisscan.io/address/0x29b9a7fBb8995b2423a71cC17cf9810798F6C543#writeContract).
 In the "Write Contract" tab:
 - connect to your metamask account
 - use "3.transferThrough" and paste the value arrays from above
