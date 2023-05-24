@@ -13,7 +13,7 @@ The system can be decomposed into two layers:
 **Layer 0** --> Blockchain layer
 **Layer 1**  --> Circles Garden Services Layer
 
-<FormattedImage relativesize="90%" src={require("!file-loader!../assets/architecture-layers.png").default} alt="Architecture layers"/>
+<FormattedImage relativesize="90%" src={require("!file-loader!../assets/architecture-layers.jpg").default} alt="Architecture layers"/>
 
 ## Layer 0 - Blockchain layer
 
