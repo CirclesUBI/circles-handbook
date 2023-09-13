@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - gha
 
 jobs:
   deploy:
@@ -17,7 +18,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           cache: 'npm'
-          node-version: '14'
+          node-version-file: 'circles-core/.nvmrc'
+          cache-dependency-path: circles-core/package-lock.json
 
       - name: Install dependencies
         run: yarn install
