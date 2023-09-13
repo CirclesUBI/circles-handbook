@@ -18,8 +18,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           cache: 'npm'
-          node-version-file: 'circles-handbook/.nvmrc'
-          cache-dependency-path: 'circles-handbook/package-lock.json'
+          node-version-file: '.nvmrc'
+          cache-dependency-path: 'package-lock.json'
 
       - name: Install dependencies
         run: yarn install
