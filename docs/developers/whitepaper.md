@@ -8,7 +8,7 @@ slug: /developers/whitepaper
 
 **https://joincircles.net**
 
-<strong> *** Note that this is the whitepaper for v1 of the Circles protocol, which is not actively maintained. To get to the current version 2 and the corresponding whitepaper, please visit </strong> **https://www.aboutcircles.com** ***
+** --- Note that this is the whitepaper for v1 of the Circles protocol, which is not actively maintained. To get to the current version 2 and the corresponding whitepaper, please visit [the new website](https://www.aboutcircles.com) --- **
 
 
 ## Abstract
