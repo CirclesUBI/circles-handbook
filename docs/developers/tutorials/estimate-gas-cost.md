@@ -13,12 +13,14 @@ This tutorial is made for finding the transfer steps that the circles api would 
 - The checksummed* address of another account you want to transfer to
 
 ### To estimate the gas cost you will also need:
-- A metamask account connected to the first circles account
+- A Metamask account connected to the first circles account
     - You can follow [this guide](gnosis-safe-as-wallet.mdx)
-    - Switch from Ethereum mainnet to the xDai network. To add xDai chose custom RCP under Networks and specify the following:
-        - name: xdai
-        - URL: https://xdai.poanetwork.dev
+    - [Switch from Ethereum mainnet to the Gnosis Chain network](https://docs.gnosischain.com/tools/wallets/metamask/). To add Gnosis Chain chose "Add Network" under "Networks" and specify the following:
+        - name: Gnosis
+        - URL: https://rpc.gnosischain.com
         - Chain ID: 100
+        - Symbol: xDai
+        - Block Explorer URL: https://gnosisscan.io
 
 *A checksummed address will contain some capital letters unlike the non-checksummed address.
 
@@ -84,18 +86,17 @@ transfers.data.transferSteps.forEach(transfer =>{
     amounts.push(transfer.value);
 });
 
-console.log({
-    tokenOwnerAddresses,
-    srcs,
-    dests,
-    amounts
-});
+console.log(JSON.stringify(tokenOwnerAddresses));
+console.log(tokenOwnerAddressestoString());
+console.log(JSON.stringify(srcs));
+console.log(JSON.stringify(dests));
+console.log(JSON.stringify(amounts));
 ```
-Then remove white spaces and make sure quotations are double quotations.
+Then make sure there are no quotations in the elements list.
 
 4. **Get the hex data for the transaction**
 
-Now that you have the lists of `tokenOwnerAddresses`, `srcs`, `dests` and `amounts`, go to [the circles Hub on blockscout](https://blockscout.com/xdai/mainnet/address/0x29b9a7fBb8995b2423a71cC17cf9810798F6C543/transactions). 
+Now that you have the lists of `tokenOwnerAddresses`, `srcs`, `dests` and `amounts`, go to [the circles Hub on blockscout](https://gnosisscan.io/address/0x29b9a7fBb8995b2423a71cC17cf9810798F6C543#writeContract).
 In the "Write Contract" tab:
 - connect to your metamask account
 - use "3.transferThrough" and paste the value arrays from above
@@ -107,9 +108,7 @@ In the "Write Contract" tab:
 Running this curl command (it needs the checksummed safe address, which you can find it in your circles wallet and the hex data)
 
 ```shell=fish
-curl -X POST "
-https://relay.circles.garden/api/v2/safes/
-<SAFE_ADDRESS>/transactions/estimate/" -H  "Content-Type: application/json" -H  "accept: application/json" -d '{ "safe": "<SAFE_ADDRESS>", "data": "<HEX_DATA>", "to": "0x29b9a7fBb8995b2423a71cC17cf9810798F6C543", "value": 0, "operation": 0, "gasToken": "0x0000000000000000000000000000000000000000" }'
+curl -X POST "https://relay.circles.garden/api/v2/safes/<SAFE_ADDRESS>/transactions/estimate/" -H  "Content-Type: application/json" -H  "accept: application/json" -d '{ "safe": "<SAFE_ADDRESS>", "data": "<HEX_DATA>", "to": "0x29b9a7fBb8995b2423a71cC17cf9810798F6C543", "value": 0, "operation": 0, "gasToken": "0x0000000000000000000000000000000000000000" }'
 ```
 returns the gas information like this:
 ```json
@@ -125,6 +124,6 @@ returns the gas information like this:
 }
 ```
 
-The total gas is `safeTxGas + baseGas`. In the example above, the total gas is then `4.159.332` (which under the `12.500.000` gas per block limit). 
+The total gas is `safeTxGas + baseGas`. In the example above, the total gas is then `4.159.332` (which is under the gas per block limit).
 
-The gas price is specified in Wei and is constant on the xDai network.
+The [gas limit per block changes over time](https://gnosisscan.io/chart/gaslimit) and currently it's `30.000.000`. The [gas price](https://gnosisscan.io/chart/gasprice) is specified in Gwei and it fluctuates over time in Gnosis Chain (average is around 7 Gwei).

@@ -25,16 +25,16 @@ Below is an example from criseth's pathfinder for transferring 1000 CRC between 
 
 
 ## Gas limitations
-Each transfer in a transitive transaction costs gas. Transactions made through [circles.garden](https://circles.garden) are paid for by the Circles Coop in Eth. In terms of CRC a small fee in circles is added for each transaction to "compensate" for this.
+Each transfer in a transitive transaction costs gas. Transactions made through [circles.garden](https://circles.garden) are paid for by the Circles Coop in xDai. In terms of CRC a small fee in circles is added for each transaction to "compensate" for this.
 
-On the Ethereum blockchain all contract calls or transactions end up inside a block. A block is either accepted or rejected on the blockchain.
-All transactions in a transitive transaction should end up in the same block to make sure that all or none of the transfer steps go through. The maximum gas for a block is 12.500.000. This means that the total gas cost for a transitive transaction must not exceed this.
+On Gnosis Chain all contract calls or transactions end up inside a block. A block is either accepted or rejected on the blockchain.
+All transactions in a transitive transaction should end up in the same block to make sure that all or none of the transfer steps go through. The maximum gas for a block is 30.000.000. This means that the total gas cost for a transitive transaction must not exceed this.
 
-In practice it is dangerous to get close to this limit. A transaction with a gas cost close to this limit might have to wait a very, very long time to fit into a block with other contract calls, because of how the Ethereum blockchain works. 
+In practice it is dangerous to get close to this limit. A transaction with a gas cost close to this limit might have to wait a very, very long time to fit into a block with other contract calls, because of how the Ethereum blockchains work.
 
 
 ## What this means in terms of number of transfer steps
-Because of the limitations to the gas costs we have to set a maximum limit to the number of transfer steps in a transaction. This limit is currently set to 52. Here we explain why.
+Because of the limitations to the gas costs we have to set a maximum limit to the number of transfer steps in a transaction. This limit is currently set to 40. Here we explain why.
 
 Following the steps in [this tutorial](../tutorials/estimate-gas-cost.md) gas costs for a number of hypothetical transactions were estimated. The results are displayed in this figure:
 
